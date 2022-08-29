@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image:url("../public/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.button{
+  border-radius: 12px;
+}
+.button:hover{
+  background-color: green;
+}
+.bg{
+  background-image:url("../public/images/overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bgcarousel{
+  background-image:url("../public/images/bgcarousel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.content{
+  background-image:url("../public/images/img1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+}
+
+.nav-theme {
+    background-color: #212121;
+    font-size: 18px;
+    
+}
+
+.nav-theme:hover {
+
+text-color: blue; /*will change color of text within the element on hover */
+}
+
+.carousel1{
+  background-image:url("../public/images/carousel1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
