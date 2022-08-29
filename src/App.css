@@ -57,5 +57,6 @@ text-color: blue; /*will change color of text within the element on hover */
   background-repeat: no-repeat;
   background-position: center;
   height: 350px;
+  width: 100%;
 }
 
