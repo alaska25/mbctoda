@@ -10,7 +10,7 @@ export default function Header() {
 		                                   <Carousel.Item>
 		                                       <img
 		                                           className="d-block w-100"
-		                                           src="https://picsum.photos/500/300?img=1"
+		                                           src="https://picsum.photos/400/200?img=1"
 		                                           alt="First slide"
 		                                       />
 		                                       <Carousel.Caption>
@@ -22,7 +22,7 @@ export default function Header() {
 		                                   <Carousel.Item>
 		                                       <img
 		                                           className="d-block w-100"
-		                                           src="https://picsum.photos/500/300?img=2"
+		                                           src="https://picsum.photos/400/200?img=2"
 		                                           alt="Second slide"
 		                                       />
 		    
@@ -35,7 +35,7 @@ export default function Header() {
 		                                   <Carousel.Item>
 		                                       <img
 		                                           className="d-block w-100"
-		                                           src="https://picsum.photos/500/300?img=3"
+		                                           src="https://picsum.photos/400/200?img=3"
 		                                           alt="Third slide"
 		                                       />
 		                                       <Carousel.Caption>
