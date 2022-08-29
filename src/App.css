@@ -39,6 +39,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   height: 250px;
+  width: 100%;
 }
 
 .nav-theme {
