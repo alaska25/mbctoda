@@ -6,20 +6,15 @@ import Footer from "../components/Footer";
 
 export default function Home(){
 	const data = {
-		title: "We are here to serve you, despite this time of pandemic",
-		content: "",
+		title: "This Web is under construction!",
+		content: "Please come back later",
 		destination: "/register",
 		label: ""
 	}
 	return(
 	<>
 		<Banner data = {data} />
-		<div className="container">
-			<Highlights />		
-		</div><br/>
-		<Content />
-		<SubFooter />
-		<Footer />
+		
 	</>
  		
  	)
