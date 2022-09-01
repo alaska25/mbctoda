@@ -11,7 +11,6 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import Register from "./pages/Register";
-import Products from "./pages/Products";
 import Services from "./pages/Services";
 
 
@@ -92,7 +91,6 @@ function App() {
                     <Route exact path ="/logout" element={<Logout />} />
                     <Route exact path ="/register" element={<Register />} />
                     <Route exact path ="/admindashboard" element={<AdminDashboard />} />
-                    <Route exact path ="/products" element={<Products />} />
                     <Route exact path ="/services" element={<Services />} />
                     
                 </Routes>
