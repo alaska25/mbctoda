@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
 }
-body{
+/*body{
   background-image:url("../public/images/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100%;
 }
-
+*/
 .button{
   border-radius: 12px;
 }
@@ -17,10 +17,9 @@ body{
   background-color: green;
 }
 .bg{
-  background-image:url("../public/images/overlay.png");
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj2u_kaAf0Db9Z38h9c6qWrs9l293y9Rizvw&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .bgcarousel{
@@ -53,11 +52,12 @@ body{
 text-color: blue; /*will change color of text within the element on hover */
 }
 
+/*
 .carousel1{
   background-image:url("../public/images/carousel1.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 350px;
   width: 100%;
-}
+}*/
 

@@ -4,7 +4,7 @@ import { Card, Button, Col, Stack, Alert} from "react-bootstrap";
 import { useCart } from "react-use-cart";
 import { useState, useEffect} from "react";
 
-export default function ServiceCard(){
+export default function ProductCard(){
 	const { addItem } = useCart();
 	const [myProduct, setMyProduct] = useState();
 

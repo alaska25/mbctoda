@@ -1,20 +1,24 @@
 import Banner from "../components/Banner";
 import Highlights from "../components/Highlights";
 import Content from "../components/Content";
-import SubFooter from "../components/SubFooter";
+
 import Footer from "../components/Footer";
 
 export default function Home(){
 	const data = {
-		title: "This Web is under construction!",
-		content: "Please come back later",
+		title: "We are here to serve you, despite this time of pandemic",
+		content: "",
 		destination: "/register",
 		label: ""
 	}
 	return(
 	<>
+		<div className="container p-3">
+			<Highlights />		
+		</div>
 		<Banner data = {data} />
-		
+		<Content />
+		<Footer />
 	</>
  		
  	)

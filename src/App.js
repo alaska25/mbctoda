@@ -3,11 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {UserProvider} from "./UserContext";
 import './App.css';
 import AppNavbar from "./components/AppNavbar";
+import AboutUs from "./pages/AboutUs";
 import AdminDashboard from "./pages/AdminDashboard";
+import Contact from "./pages/Contact";
+import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import Register from "./pages/Register";
+import Products from "./pages/Products";
+import Services from "./pages/Services";
 
 
 function App() {
@@ -80,10 +85,15 @@ function App() {
                 <Routes>
 
                     <Route exact path ="/" element={<Home />} />
+                    <Route exact path ="/aboutus" element={<AboutUs />} />
+                    <Route exact path ="/contact" element={<Contact />} />
+                    <Route exact path ="/dashboard" element={<Dashboard />} />
                     <Route exact path ="/login" element={<Login />} />
                     <Route exact path ="/logout" element={<Logout />} />
                     <Route exact path ="/register" element={<Register />} />
                     <Route exact path ="/admindashboard" element={<AdminDashboard />} />
+                    <Route exact path ="/products" element={<Products />} />
+                    <Route exact path ="/services" element={<Services />} />
                     
                 </Routes>
 

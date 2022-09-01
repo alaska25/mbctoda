@@ -140,44 +140,44 @@ export default function Register(){
 			:
 
 			<>
-					<div className="container-fluid responsive">	
-						<h1 className=" text-center p-1 text-light">Sign Up</h1>
-						<p className=" text-center text-light">It's Quick and Easy!</p>
+					<div className="container-fluid">	
+						<h1 className=" text-center p-2 text-dark">Register Now</h1>
+						<p className=" text-center text-dark">It's Quick and Easy!</p>
 
 						<div className="d-flex justify-content-center align-items-center">		
-						<Form className="rounded p-6 border-1 p-sm-3 fw-bold bg-light" onSubmit = {(e) => registerUser(e)}>
+						<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit = {(e) => registerUser(e)}>
 
-							<Form.Group className="mb-3" controlId="firstName">
-							  <Form.Label>First Name</Form.Label>
-							  <Form.Control type="text" placeholder="" value={firstName} onChange={e => setFirstName(e.target.value)}/>
+							<Form.Group className="p-3" controlId="firstName">
+							  <Form.Label>First Name:</Form.Label>
+							  <Form.Control type="text" placeholder="Type your first name" value={firstName} onChange={e => setFirstName(e.target.value)}/>
 							</Form.Group>
 
-							<Form.Group className="mb-3" controlId="">
+							<Form.Group className="p-3" controlId="">
 							  <Form.Label>Last Name</Form.Label>
-							  <Form.Control type="text" placeholder="" value={lastName} onChange={e => setLastName(e.target.value)}/>
+							  <Form.Control type="text" placeholder="Type your last name" value={lastName} onChange={e => setLastName(e.target.value)}/>
 							</Form.Group>
 
-							<Form.Group className="mb-3" controlId="mobileNo">
+							<Form.Group className="p-3" controlId="mobileNo">
 							  <Form.Label>Mobile Number</Form.Label>
-							  <Form.Control type="number" placeholder="" value={mobileNo} min="0" onChange={e => setMobileNo(e.target.value)}/>
+							  <Form.Control type="number" placeholder="Type your contact number" value={mobileNo} min="0" onChange={e => setMobileNo(e.target.value)}/>
 							</Form.Group>
 
-						      <Form.Group className="mb-3" controlId="userEmail">
+						      <Form.Group className="p-3" controlId="userEmail">
 						        <Form.Label>Email address</Form.Label>
-						        <Form.Control type="email" placeholder="sample@mail.com" value={email} onChange={e => setEmail(e.target.value)}/>
+						        <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
 						        <Form.Text className="text-muted">
 						          We'll never share your email with anyone else.
 						        </Form.Text>
 						      </Form.Group>
 
-						      <Form.Group className="mb-3" controlId="password1">
+						      <Form.Group className="p-3" controlId="password1">
 						        <Form.Label>Password<span className="text-danger">*</span></Form.Label>
-						        <Form.Control type="password" placeholder="" value={password1} onChange={e => setPassword1(e.target.value)}/>
+						        <Form.Control type="password" placeholder="Enter your password" value={password1} onChange={e => setPassword1(e.target.value)}/>
 						      </Form.Group>
 
-						      <Form.Group className="mb-3" controlId="password2">
+						      <Form.Group className="p-3" controlId="password2">
 						        <Form.Label>Verify Password<span className="text-danger">*</span></Form.Label>
-						        <Form.Control type="password" placeholder="" value={password2} onChange={e => setPassword2(e.target.value)}/>
+						        <Form.Control type="password" placeholder="Enter same password " value={password2} onChange={e => setPassword2(e.target.value)}/>
 						      </Form.Group>
 					      
 					      {
@@ -191,7 +191,7 @@ export default function Register(){
 					      	:
 					      		<div className="d-grid gap-2">
 
-					      		<Button variant="primary" type="submit" id="submitBtn" disabled>
+					      		<Button variant="primary" type="submit" size="sm" id="submitBtn" disabled>
 					      		  Sign Up
 					      		</Button>
 					      		</div>

@@ -120,45 +120,45 @@ export default function Login(){
 		(user.id !== null)
 		?	
 			// Redirected to the /products endpoint.
-			<Navigate to="/"/>
+			<Navigate to="/" />
 		:
 		<>
-		<div className="container-fluid bg">
+		<div className="container-fluid">
 			<div>
-				<h1 className="pt-5 text-center text-light">MBCToda Login</h1>
+				<h1 className="p-2 text-center text-dark">MBCToda Login</h1>
 			</div>
 			<div className="d-flex justify-content-center container align-items-center my-5">
-				<Form className="rounded p-4 border border-1 bg-light fw-bold position-absolute top-50 start-50 translate-middle" onSubmit ={(e) => login(e)}>
-					<Form.Group className="mb-3 text-light" controlId="userEmail">
-					  <Form.Label></Form.Label>
-					  <Form.Control type="email" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)}/>
-					  <Form.Text className="text-muted text-light">
+				<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => login(e)}>
+					<Form.Group className="p-3 text-dark" controlId="userEmail">
+					  <Form.Label>Email Address:</Form.Label>
+					  <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
+					  <Form.Text className="text-muted">
 					    We'll never share your email with anyone else.
 					  </Form.Text>
 					</Form.Group>
 
-					<Form.Group className="mb-3 text-light" controlId="password">
-					  <Form.Label><span className="text-danger"></span></Form.Label>
-					  <Form.Control type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)}/>
+					<Form.Group className="p-3 text-dark" controlId="password">
+					  <Form.Label>Password<span className="text-danger">*</span></Form.Label>
+					  <Form.Control type="password" placeholder="Type your password" value={password} onChange={e => setPassword(e.target.value)}/>
 					</Form.Group>
 						
 					{
 						isActive
 						?
-						<div className="d-grid gap-2">
+						<div className="d-grid gap-2 p-3">
 							<Button variant="success" type="submit" id="submitBtn">
 							  Log In
 							</Button>
 						</div>
 						:
-						<div className="d-grid gap-2">
-							<Button variant="primary" type="submit" id="submitBtn" disabled>
+						<div className="d-grid gap-2 p-3">
+							<Button variant="primary" type="submit" id="submitBtn" size="sm" disabled>
 							  Log In
 							</Button>
 						</div>
 					}
-					<p className="text-center mt-2 text-dark">Not a member yet?&nbsp;Sign Up <a href="http://localhost:3000/register">here</a></p>
-					<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1">
+					<h6 className="text-center mt-2 text-dark">Not a member yet?&nbsp;Sign Up <a href="http://localhost:3000/register">here</a></h6>
+					<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
 					  Cancel
 					</Button>
 			

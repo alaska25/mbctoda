@@ -6,7 +6,7 @@ import { Container, Card, Button, Row, Col } from "react-bootstrap";
 
 import UserContext from "../UserContext";
 
-export default function ServiceView(){
+export default function ProductView(){
 
 	//To check if their is already a logged in user. Change the button from "Enroll" to "Login" if the user is not logged in.
 	const { user } = useContext(UserContext);
