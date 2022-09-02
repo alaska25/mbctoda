@@ -10,8 +10,12 @@ import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
+import AddMember from "./pages/AddMember";
+import MemberList from "./pages/MemberList";
 import Register from "./pages/Register";
 import Services from "./pages/Services";
+import AddService from "./pages/AddService";
+import ActiveDrivers from "./pages/ActiveDrivers";
 
 
 function App() {
@@ -89,9 +93,13 @@ function App() {
                     <Route exact path ="/dashboard" element={<Dashboard />} />
                     <Route exact path ="/login" element={<Login />} />
                     <Route exact path ="/logout" element={<Logout />} />
+                    <Route exact path ="/addmember" element={<AddMember />} />
+                    <Route exact path ="/memberlist" element={<MemberList />} />
                     <Route exact path ="/register" element={<Register />} />
                     <Route exact path ="/admindashboard" element={<AdminDashboard />} />
                     <Route exact path ="/services" element={<Services />} />
+                    <Route exact path ="/add-service" element={<AddService />} />
+                    <Route exact path ="/active-driver" element={<ActiveDrivers />} />
                     
                 </Routes>
 
