@@ -79,7 +79,7 @@ export default function AddMember() {
 	useEffect(() => {
 
         // Validation to enable submit button when all fields are populated and set a price and stock greater than zero.
-        if(imageURL != "" && firstname != "" && lastname != "" && description != "" && address != "" &&licenseNumber != "" ){
+        if(imageURL !== "" && firstname !== "" && lastname !== "" && description !== "" && address !== "" &&licenseNumber !== "" ){
             setIsActive(true);
         } else {
             setIsActive(false);

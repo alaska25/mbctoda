@@ -76,7 +76,7 @@ export default function AddService() {
 	useEffect(() => {
 
         // Validation to enable submit button when all fields are populated and set a price and stock greater than zero.
-        if(name != "" && description != "" && imageURL != "" && price > 0 && stocks > 0){
+        if(name !== "" && description !== "" && imageURL !== "" && price > 0 && stocks > 0){
             setIsActive(true);
         } else {
             setIsActive(false);
