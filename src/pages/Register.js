@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import UserContext from "../UserContext";
 import { Navigate, useNavigate, Link } from "react-router-dom";
 import Swal from "sweetalert2";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Nav } from "react-bootstrap";
 import { MDBCheckbox } from 'mdb-react-ui-kit';
 
 export default function Register(){
@@ -180,7 +180,7 @@ export default function Register(){
 						        <Form.Label>Verify Password<span className="text-danger">*</span></Form.Label>
 						        <Form.Control type="password" placeholder="Enter same password " value={password2} onChange={e => setPassword2(e.target.value)}/>
 						      </Form.Group>
-						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our ' required/><span className="text-end hyperlink"><a href="http://localhost:3000/term-policies">Terms and Privacy Policy.</a></span> <br/><br/>
+						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our ' required/><span className="text-end hyperlink"><Nav.Link className="text-center" as={Link} to="/term-policies" eventKey="/term-policies" >Terms and Privacy Policy.</Nav.Link></span> <br/>
 					      
 					      {
 					      	isActive
