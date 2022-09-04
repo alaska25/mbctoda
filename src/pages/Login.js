@@ -4,12 +4,15 @@ import { Navigate, Link, useNavigate } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
 
+
+import React from "react";
+import IconButton from "@material-ui/core/IconButton";
+import InputLabel from "@material-ui/core/InputLabel";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import Input from "@material-ui/core/Input";
+
 export default function Login(){
 
-	// Allows us to consume the User Context object and it's properties to use for the user validation.
-		//we have now have the access in te user state created in the app.js.
-		//"user" value will be used for the conditional rendering.
-		//"setUser" will be used for updating the global user state in the app.js
 	const {user, setUser} = useContext(UserContext);
 
 	//State hooks to store the values of the input fields
@@ -64,19 +67,6 @@ export default function Login(){
 
 		})
 
-		// "localStorage" is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date.
-			// Syntax: localStorage.setItem("propertyName", value);
-
-		// Set the email of the authenticated user in the local storage 
-			//Storing Information in the local storage make the data persistent even as page is refreshed.
-		// localStorage.setItem("email", email);
-
-		// Set the global user state (located in the app.js) to be set with the properties obtained from local storage.
-		// setUser({
-		// 			//email used upon logging in.
-		// 	email: localStorage.getItem("email")
-		// })
-
 		//Clear input fields
 		setEmail("");
 		setPassword("");
@@ -123,49 +113,77 @@ export default function Login(){
 			<Navigate to="/" />
 		:
 		<>
-		<div className="container-fluid">
-			<div>
-				<h1 className="p-2 text-center text-dark">MBCToda Login</h1>
-			</div>
-			<div className="d-flex justify-content-center container align-items-center my-5">
-				<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => login(e)}>
-					<Form.Group className="p-3 text-dark" controlId="userEmail">
-					  <Form.Label>Email Address:</Form.Label>
-					  <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
-					  <Form.Text className="text-muted">
-					    We'll never share your email with anyone else.
-					  </Form.Text>
-					</Form.Group>
+			<div className="container-fluid">
+				<div>
+					<h1 className="p-2 text-center text-dark">MBCToda Login</h1>
+				</div>
+				<div className="d-flex justify-content-center container align-items-center my-5">
+					<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => login(e)}>
+						<Form.Group className="p-3 text-dark" controlId="userEmail">
+						  <Form.Label>Email Address:</Form.Label>
+						  <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
+						  <Form.Text className="text-muted">
+						    We'll never share your email with anyone else.
+						  </Form.Text>
+						</Form.Group>
 
-					<Form.Group className="p-3 text-dark" controlId="password">
-					  <Form.Label>Password<span className="text-danger">*</span></Form.Label>
-					  <Form.Control type="password" placeholder="Type your password" value={password} onChange={e => setPassword(e.target.value)}/>
-					</Form.Group>
-						
-					{
-						isActive
-						?
-						<div className="d-grid gap-2 p-3">
-							<Button variant="success" type="submit" id="submitBtn">
-							  Log In
-							</Button>
-						</div>
-						:
-						<div className="d-grid gap-2 p-3">
-							<Button variant="primary" type="submit" id="submitBtn" size="sm" disabled>
-							  Log In
-							</Button>
-						</div>
-					}
-					<h6 className="text-center mt-2 text-dark">Not a member yet?&nbsp;Sign Up <a href="http://localhost:3000/register">here</a></h6>
-					<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
-					  Cancel
-					</Button>
-			
-				</Form>
+						<Form.Group className="p-3 text-dark" controlId="password">
+						  <Form.Label>Password<span className="text-danger">*</span></Form.Label>
+						  <Form.Control type="password" placeholder="Type your password" value={password} onChange={e => setPassword(e.target.value)}/>
+						</Form.Group>
+							
+						{
+							isActive
+							?
+							<div className="d-grid gap-2 p-3">
+								<Button variant="success" type="submit" id="submitBtn">
+								  Log In
+								</Button>
+							</div>
+							:
+							<div className="d-grid gap-2 p-3">
+								<Button variant="primary" type="submit" id="submitBtn" size="sm" disabled>
+								  Log In
+								</Button>
+							</div>
+						}
+						<h6 className="text-center mt-2 text-dark">Not a member yet?&nbsp;Sign Up <a href="http://localhost:3000/register">here</a></h6>
+						<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
+						  Cancel
+						</Button>
+				
+					</Form>
+				</div>
 			</div>
-		</div>
 		</>
 	
 	)
 }
+
+
+
+{/*<div
+      style={{
+        marginLeft: "30%",
+      }}
+    >
+      <h4>How to show and hide password in ReactJS?</h4>
+      <InputLabel htmlFor="standard-adornment-password">
+        Enter your Password
+      </InputLabel>
+      <Input
+        type={values.showPassword ? "text" : "password"}
+        onChange={handlePasswordChange("password")}
+        value={values.password}
+        endAdornment={
+          <InputAdornment position="end">
+            <IconButton
+              onClick={handleClickShowPassword}
+              onMouseDown={handleMouseDownPassword}
+            >
+              {values.showPassword ? "hide" : "show" }
+            </IconButton>
+          </InputAdornment>
+        }
+      />
+    </div>*/}

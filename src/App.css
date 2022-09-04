@@ -52,12 +52,12 @@
 text-color: blue; /*will change color of text within the element on hover */
 }
 
-/*
-.carousel1{
-  background-image:url("../public/images/carousel1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 350px;
-  width: 100%;
-}*/
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
 
+.footer a:hover{
+  text-decoration: underline;
+  color: red;
+}

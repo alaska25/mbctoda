@@ -3,6 +3,7 @@ import UserContext from "../UserContext";
 import { Navigate, useNavigate, Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { Form, Button } from "react-bootstrap";
+import { MDBCheckbox } from 'mdb-react-ui-kit';
 
 export default function Register(){
 	const {user} = useContext(UserContext);
@@ -179,6 +180,7 @@ export default function Register(){
 						        <Form.Label>Verify Password<span className="text-danger">*</span></Form.Label>
 						        <Form.Control type="password" placeholder="Enter same password " value={password2} onChange={e => setPassword2(e.target.value)}/>
 						      </Form.Group>
+						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.' required/> <br/>
 					      
 					      {
 					      	isActive
@@ -196,6 +198,7 @@ export default function Register(){
 					      		</Button>
 					      		</div>
 					      }
+					   
 					    <p className="text-center mt-2">Already Registered?&nbsp;Log In <a href="http://localhost:3000/login">here</a></p>
 					    <Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1">
 						  Cancel
