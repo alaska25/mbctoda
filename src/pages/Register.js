@@ -180,7 +180,7 @@ export default function Register(){
 						        <Form.Label>Verify Password<span className="text-danger">*</span></Form.Label>
 						        <Form.Control type="password" placeholder="Enter same password " value={password2} onChange={e => setPassword2(e.target.value)}/>
 						      </Form.Group>
-						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our ' required/><span className="text-end"><a href="http://localhost:3000/term-policies">Terms and Privacy Policy.</a></span> <br/><br/>
+						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our ' required/><span className="text-end hyperlink"><a href="http://localhost:3000/term-policies">Terms and Privacy Policy.</a></span> <br/><br/>
 					      
 					      {
 					      	isActive

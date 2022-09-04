@@ -65,3 +65,12 @@ text-color: blue; /*will change color of text within the element on hover */
 ol.list {
   list-style-type: lower-alpha;
 }
+
+.hyperlink a{
+    text-decoration: none;
+    color: blue;
+}
+.hyperlink a:hover{
+  text-decoration: underline;
+  color: red;
+}

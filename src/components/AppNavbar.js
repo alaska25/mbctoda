@@ -10,7 +10,7 @@ export default function AppNavbar(){
 	const {user} = useContext(UserContext);
 
 	return(
-				    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="animate-navbar nav-theme justify-content-between" sticky-top>
+				    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="animate-navbar nav-theme justify-content-between">
 	          <Container>
 	           	<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	            <Navbar.Collapse id="responsive-navbar-nav">
