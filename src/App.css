@@ -61,3 +61,7 @@ text-color: blue; /*will change color of text within the element on hover */
   text-decoration: underline;
   color: red;
 }
+
+ol.list {
+  list-style-type: lower-alpha;
+}

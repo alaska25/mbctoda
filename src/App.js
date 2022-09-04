@@ -14,6 +14,7 @@ import AddMember from "./pages/AddMember";
 import MemberList from "./pages/MemberList";
 import Register from "./pages/Register";
 import Services from "./pages/Services";
+import TermPolicies from "./pages/TermPolicies";
 import AddService from "./pages/AddService";
 import ActiveDrivers from "./pages/ActiveDrivers";
 
@@ -98,6 +99,7 @@ function App() {
                     <Route exact path ="/register" element={<Register />} />
                     <Route exact path ="/admindashboard" element={<AdminDashboard />} />
                     <Route exact path ="/services" element={<Services />} />
+                    <Route exact path ="/term-policies" element={<TermPolicies />} />
                     <Route exact path ="/add-service" element={<AddService />} />
                     <Route exact path ="/active-driver" element={<ActiveDrivers />} />
                     
