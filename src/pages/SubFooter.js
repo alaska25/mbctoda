@@ -37,11 +37,11 @@ export default function SubFooter(){
 		          <div className="media">
 		              <div className="media-body">
 		                 <span>July 30, 2022</span>
-		                 <a href="#">Click here =>> </a>
+		                 <a href="#">Click here </a>
 		              </div>
 		              <div className="media-body">
 		                 <span>August 27, 2022</span>
-		                 <a href="#">Click here =>> </a>
+		                 <a href="#">Click here </a>
 		              </div>
 		           </div>
 		          <div className="media">
