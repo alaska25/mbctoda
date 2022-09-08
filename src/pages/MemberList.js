@@ -10,23 +10,20 @@ export default function MemberList(){
 			          <th>First Name</th>
 			          <th>Last Name</th>
 			          <th>Address</th>
-			          <th>License #</th>
 			        </tr>
 			      </thead>
 			      <tbody>
 			        <tr>
-			          <td>1</td>
+			          <td>0001</td>
 			          <td>Ben</td>
 			          <td>Baring</td>
 			          <td>Poblacion, Medellin, Cebu</td>
-			          <td>00000000</td>
 			        </tr>
 			        <tr>
-			          <td>2</td>
+			          <td>0002</td>
 			          <td>Arman</td>
 			          <td>Villegas</td>
 			          <td>Lamintak Norte, Medellin, Cebu</td>
-			          <td>00000000</td>
 			        </tr>
 			      </tbody>
 			    </Table>
