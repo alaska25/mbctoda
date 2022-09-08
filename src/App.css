@@ -2,14 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/*body{
-  background-image:url("../public/images/background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-}
-*/
+
 .button{
   border-radius: 12px;
 }
@@ -82,45 +75,36 @@ ol.list {
 
 footer{
   background-color: #000014;
-  .footer-widget{
-    h3{
+}
+  h3{
       padding: 5px;
       margin-bottom: 30px;
     }
-  }
   .contact-link{
     display:inline-block;
     width: 100%;
     color: #333;
   }
-
-  .footer-social{
-    ul{
-      padding-left: 0;
-      li{
+  .footer-social ul{
+    padding-left: 0;
+  }
+  .footer-social ul li{
+    display: block;
+  }
+  .footer-social ul a{
+    font-size: 20px;
+          text-decoration: none;
+  }
+  .footer-social ul a:hover{
+    color: red;
+  }
+  .footer-social li{
         list-style: none;
         float: left;
         padding: 0 10px;
-        &:first-child{
-          padding-left: 0;
-        }
-        a{
-          font-size: 20px;
-          text-decoration: none;
-          &:hover{
-            color: red;
-          }
-        }
       }
-    }
-  }
-
   .opening-time{
     padding-left:0;
-      }
-        strong{
-          color: red;
-        }
     }
 
  .opening-time li{
@@ -132,34 +116,10 @@ footer{
    }
 
 
-  .media-body{
-    a{
-      &:hover{
+  .media-body a:hover{
         color: red;
-      }
-    }
-    span{
-        color: #969696;
-      }
   }
   
-  // gallery image
-  .images-gellary{
-    ul{
-      padding-left: 0;
-      li{
-        list-style: none;
-        float: left;
-        margin: 0 3% 2% 0;
-        width: 31%;
-        position: relative;
-        &:nth-child(3n) {
-    margin: 0 0 1%;
-}
-      }
-    }
-  }
-
 .bgdark{
   background-color: #000000;
 }
