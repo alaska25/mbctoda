@@ -26,22 +26,20 @@ export default function AdminDashboard(){
 
       setAllProducts(data.map(product => {
         return(
-          <tr key={product._id}>
-            <td>{product._id}</td>
-            <td>{product.name}</td>
-            <td>{product.description}</td>
-            <td>{product.price}</td>
-            <td>{product.stocks}</td>
-            <td>{product.isActive ? "Active" : "Inactive"}</td>
+          <tr key={user._id}>
+            <td>{user._id}</td>
+            <td>{user.completeName}</td>
+            <td>{user.status}</td>
+            <td>{user.action ? "Active" : "Inactive"}</td>
             <td>
               {
-                (product.isActive)
+                (user.isActive)
                 ?
-                  <Button variant="danger" size="sm" onClick ={() => archive(product._id, product.name)}>Archive</Button>
+                  <Button variant="danger" size="sm" onClick ={() => archive(user._id, user.completeName)}>Archive</Button>
                 :
                   <>
-                    <Button variant="success" size="sm" onClick ={() => unarchive(product._id, product.name)}>Unarchive</Button>
-                    <Button as={ Link } to={`/editProduct/${product._id}`} variant="secondary" size="sm" className="m-2" >Edit</Button>
+                    <Button variant="success" size="sm" onClick ={() => unarchive(user._id, user.completeName)}>Unarchive</Button>
+                    <Button as={ Link } to={`/editMemberStatus/${user._id}`} variant="secondary" size="sm" className="m-2" >Edit</Button>
                   </>
               }
             </td>
@@ -149,11 +147,8 @@ export default function AdminDashboard(){
             <Table striped bordered hover responsive>
                <thead>
                  <tr className="text-center col-sm-12">
-                   <th>Product&nbsp;ID</th>
-                   <th>Product&nbsp;Name</th>
-                   <th>Description</th>
-                   <th>Price</th>
-                   <th>Stocks</th>
+                   <th>User&nbsp;ID</th>
+                   <th>Complete&nbsp;Name</th>
                    <th>Status</th>
                    <th>Action</th>
                  </tr>

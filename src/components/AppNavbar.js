@@ -21,7 +21,6 @@ export default function AppNavbar(){
 	            <Nav className="text-center">
 	            	<Nav.Link as={Link} to="/" eventKey="/" className="nav-theme" active><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
 	            	<Nav.Link as={Link} to="/aboutus" eventKey="/aboutus"><FontAwesomeIcon icon={faUsers} className="ms-1"></FontAwesomeIcon>&nbsp;About Us</Nav.Link>
-	            	<Nav.Link as={Link} to="/memberlist" eventKey="/memberlist"><FontAwesomeIcon icon={faTableList} className="ms-1"></FontAwesomeIcon>&nbsp;Member List </Nav.Link>
 	              	{
 	              		(user.isAdmin)
 	              			? 
@@ -35,9 +34,10 @@ export default function AppNavbar(){
 	                {	
 	                (user.id !== null)
 	                    ?
-	                   
+	                    <>
+	                   		<Nav.Link as={Link} to="/memberlist" eventKey="/memberlist"><FontAwesomeIcon icon={faTableList} className="ms-1"></FontAwesomeIcon>&nbsp;Member List </Nav.Link>
 	                    	<Nav.Link as={Link} to="/logout" eventKey="/logout">Logout</Nav.Link>	
-	                    
+	                    </>                
 	                    : 
 		                		<>	
 		                			<Nav.Link as={Link} to="/contact" eventKey="/contact"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon>&nbsp;Contact Us</Nav.Link>
