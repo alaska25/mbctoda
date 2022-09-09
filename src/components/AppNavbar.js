@@ -15,7 +15,7 @@ export default function AppNavbar(){
 	           	<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	            <Navbar.Collapse id="responsive-navbar-nav">
 	              	<Nav className="me-auto" defaultActiveKey="/">
-	              	<Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><a className="text-danger text ms-1">MBCT</a><a className="text-warning text">oda</a></Nav.Link>
+	              	<Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><strong><a className="text-danger text ms-1">MBCT</a><a className="text-warning text">oda</a></strong></Nav.Link>
 	              	
 	           	</Nav>
 	            <Nav className="text-center">

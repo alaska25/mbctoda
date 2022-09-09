@@ -110,6 +110,9 @@ footer{
  .opening-time li{
     list-style: none;
   }
+  .opening-time li a{
+    text-decoration: none;
+  }
   span{
     float:left;
     padding-right: 10px;
@@ -128,6 +131,12 @@ footer{
 }
 .text{
   text-decoration: none;
+}
+.footer-widget-content li {
+  list-style: none;
+}
+.image{
+  margin-bottom: 3px;
 }
 
 
