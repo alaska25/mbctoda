@@ -145,11 +145,11 @@ footer{
   left: -80px;
   transition: 0.3s;
   padding: 15px;
-  width: 100px;
+  width: 120px;
   text-decoration: none;
   font-size: 20px;
   color: white;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 70px 70px 0;
 }
 
 #mySidenav a:hover {
@@ -157,17 +157,17 @@ footer{
 }
 
 #blog {
-  top: 80px;
+  top: 65px;
   background-color: #000000;
 }
 
 #projects {
-  top: 140px;
+  top: 115px;
   background-color: #f44336;
 }
 
 #contact {
-  top: 200px;
+  top: 165px;
   background-color: #555
 }
 
