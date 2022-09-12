@@ -76,10 +76,10 @@ export default function SubFooter(){
 		        </div>
 		      </div>
 		    </div>
-		    <hr/>
 		  </div><br/>
 		</footer>
-		<div className="p-4 bgdark">	
+		<div className="p-4 bgdark">
+		<hr/>	
 				<Nav.Link>
 		        		<p className="text-muted text-center"> &copy;&nbsp;<strong>MBCToda</strong> 2018 - 2022.</p>
 		        </Nav.Link>

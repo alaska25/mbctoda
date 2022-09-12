@@ -1,6 +1,7 @@
 import Table from 'react-bootstrap/Table';
 export default function MemberList(){
 	return(
+	<>
 		<div className="container">
 		<h2 className="text-center mt-2">Members List</h2>
 	    <Table striped bordered hover className="text-center mt-3">
@@ -28,7 +29,7 @@ export default function MemberList(){
 			      </tbody>
 			    </Table>
 		</div>
-			
+	</>
 
 		)
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Raleway&family=Roboto+Mono:wght@300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -145,7 +147,7 @@ footer{
   left: -70px;
   transition: 0.1s;
   padding: 15px;
-  width: 85px;
+  width: 88px;
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -169,6 +171,29 @@ footer{
 #contact {
   top: 485px;
   background-color: #FBB117;
+}
+
+/*Content Section*/
+.submenu {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.submenu a {
+  float: Left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+}
+
+.submenu a:hover {
+  background: #ddd;
+  color: black;
 }
 
 
