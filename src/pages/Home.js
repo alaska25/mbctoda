@@ -1,7 +1,7 @@
 import Banner from "../components/Banner";
 import Highlights from "../components/Highlights";
 import Content from "../components/Content";
-
+import SubNavbar from "../pages/SubNavbar";
 import Footer from "../components/Footer";
 
 export default function Home(){
@@ -17,6 +17,7 @@ export default function Home(){
 			<Highlights />		
 		</div>
 		<Banner data = {data} />
+		<SubNavbar />
 		<Content />
 		<Footer />
 	</>

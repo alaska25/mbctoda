@@ -4,7 +4,6 @@ import { Navigate, Link, useNavigate } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
 
-
 import React from "react";
 import IconButton from "@material-ui/core/IconButton";
 import InputLabel from "@material-ui/core/InputLabel";
@@ -159,31 +158,3 @@ export default function Login(){
 	
 	)
 }
-
-
-
-{/*<div
-      style={{
-        marginLeft: "30%",
-      }}
-    >
-      <h4>How to show and hide password in ReactJS?</h4>
-      <InputLabel htmlFor="standard-adornment-password">
-        Enter your Password
-      </InputLabel>
-      <Input
-        type={values.showPassword ? "text" : "password"}
-        onChange={handlePasswordChange("password")}
-        value={values.password}
-        endAdornment={
-          <InputAdornment position="end">
-            <IconButton
-              onClick={handleClickShowPassword}
-              onMouseDown={handleMouseDownPassword}
-            >
-              {values.showPassword ? "hide" : "show" }
-            </IconButton>
-          </InputAdornment>
-        }
-      />
-    </div>*/}

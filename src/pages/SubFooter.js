@@ -76,7 +76,8 @@ export default function SubFooter(){
 		        </div>
 		      </div>
 		    </div>
-		  </div><br/><br/>
+		    <hr/>
+		  </div><br/>
 		</footer>
 		<div className="p-4 bgdark">	
 				<Nav.Link>

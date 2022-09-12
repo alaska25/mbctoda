@@ -124,7 +124,7 @@ footer{
   }
   
 .bgdark{
-  background-color: #000000;
+  background-color: #000014;
 }
 .space{
   margin-top: 10px;
@@ -137,6 +137,38 @@ footer{
 }
 .image{
   margin-bottom: 3px;
+}
+
+/*Sub Navbar*/
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#blog {
+  top: 80px;
+  background-color: #000000;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
 }
 
 
