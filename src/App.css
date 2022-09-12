@@ -156,6 +156,11 @@ footer{
   left: 0;
 }
 
+#home {
+  top: 365px;
+  background-color: #000000;
+}
+
 #projects {
   top: 425px;
   background-color: #7E1712;
