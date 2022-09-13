@@ -147,11 +147,11 @@ footer{
   left: -70px;
   transition: 0.1s;
   padding: 15px;
-  width: 92px;
+  width: 82px;
   text-decoration: none;
   font-size: 20px;
   color: white;
-  border-radius: 0 65px 115px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 #mySidenav a:hover {
@@ -159,18 +159,18 @@ footer{
 }
 
 #home {
-  top: 365px;
-  background-color: #000000;
+  top: 355px;
+  background-color:  #004e92;
 }
 
 #projects {
-  top: 425px;
-  background-color: #7E1712;
+  top: 415px;
+  background-color: #000428;
 }
 
 #contact {
-  top: 485px;
-  background-color: #FBB117;
+  top: 475px;
+  background-color: #56ab2f;
 }
 
 /*Content Section*/

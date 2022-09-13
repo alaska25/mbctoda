@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 export default function Home(){
 	const data = {
-		title: "We are here to serve you, despite this time of pandemic",
+		title: "WE ARE HERE TO SERVE YOU AND BOOK A RIDE NOW!",
 		content: "",
 		destination: "/register",
 		label: ""
