@@ -1,7 +1,7 @@
 import {useState, useEffect, useContext} from "react";
 import UserContext from "../UserContext";
 import { Navigate, Link, useNavigate } from "react-router-dom";
-import { Form, Button } from "react-bootstrap";
+import { Nav, Form, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
 
 import React from "react";
@@ -146,7 +146,8 @@ export default function Login(){
 								</Button>
 							</div>
 						}
-						<h6 className="text-center mt-2 text-dark">Not a member yet?&nbsp;Sign Up <a href="http://localhost:3000/register">here</a></h6>
+						<p className="mt-2 text-center">Not a member yet? Join <a href="/register">here</a></p>
+
 						<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
 						  Cancel
 						</Button>

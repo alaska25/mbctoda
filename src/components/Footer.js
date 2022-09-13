@@ -4,6 +4,8 @@ import SubFooter from "../pages/SubFooter";
 export default function Footer(){
 
 	return(	
-				<SubFooter />
+		<>
+			<SubFooter />
+		</>
 	)
 }

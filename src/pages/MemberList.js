@@ -20,12 +20,6 @@ export default function MemberList(){
 			          <td>Baring</td>
 			          <td>Poblacion, Medellin, Cebu</td>
 			        </tr>
-			        <tr>
-			          <td>0002</td>
-			          <td>Arman</td>
-			          <td>Villegas</td>
-			          <td>Lamintak Norte, Medellin, Cebu</td>
-			        </tr>
 			      </tbody>
 			    </Table>
 		</div>

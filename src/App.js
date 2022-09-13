@@ -77,8 +77,6 @@ function App() {
     })
   }, [])
 
-
-
   return (
     <>
       <UserProvider value={{user, setUser, unsetUser}}>
