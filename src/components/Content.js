@@ -3,7 +3,9 @@ import SubContent from "../pages/SubContent";
 export default function Content(){
 	return(
 		<>
+		<div className="container-fluid">	
 			<SubContent />
+		</div>
 			<div className="text-center text-dark bg-light">
 				<div className="container">
 					<h3>Customer Support 24/7</h3>

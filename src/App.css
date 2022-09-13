@@ -199,6 +199,7 @@ footer{
 /*Sub Navbar start*/
 .tablink {
   background-color: #000014;
+  border-radius: 15px;
   color: white;
   float: Left;
   border: none;
