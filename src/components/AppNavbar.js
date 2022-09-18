@@ -35,7 +35,7 @@ export default function AppNavbar(){
 	                (user.id !== null)
 	                    ?
 	                    <>
-	                   		<Nav.Link as={Link} to="/memberlist" eventKey="/memberlist"><FontAwesomeIcon icon={faTableList} className="ms-1"></FontAwesomeIcon>&nbsp;Member List </Nav.Link>
+	                   		<Nav.Link as={Link} to="/memberlist" eventKey="/memberlist"><FontAwesomeIcon icon={faTableList} className="ms-1"></FontAwesomeIcon>&nbsp;Driver's List </Nav.Link>
 	                    	<Nav.Link as={Link} to="/logout" eventKey="/logout">Logout</Nav.Link>	
 	                    </>                
 	                    : 
