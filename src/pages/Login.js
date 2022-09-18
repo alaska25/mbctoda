@@ -109,7 +109,7 @@ export default function Login(){
 		(user.id !== null)
 		?	
 			// Redirected to the /products endpoint.
-			<Navigate to="/" />
+			<Navigate to="/MemberList" />
 		:
 		<>
 			<div className="container-fluid">
