@@ -1,11 +1,11 @@
+import { Link } from "react-router-dom";
+import { Nav } from "react-bootstrap"; 
 export default function SubContent(){
 
 	return(
 		<>	
-			<button className="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Drivers</button>
-			<button className="tablink" onclick="openCity('Paris', this, 'green')">Industry</button>
-			<button className="tablink" onclick="openCity('Tokyo', this, 'blue')">Merchant</button>
-			<button className="tablink" onclick="openCity('Oslo', this, 'orange')">Consumer</button>
+			<button className="tablink"><Nav.Link as={Link} to="/MemberList" eventKey="/MemberList">Drivers </Nav.Link>
+			</button>
 		</>
 		)
 }

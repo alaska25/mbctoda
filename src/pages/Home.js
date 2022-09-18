@@ -6,13 +6,14 @@ import Footer from "../components/Footer";
 
 export default function Home(){
 	const data = {
-		title: "WE ARE HERE TO SERVE YOU AND BOOK A RIDE NOW!",
+		title: "WE ARE HERE AND HAPPY TO SERVE YOU !",
 		content: "",
-		destination: "/register",
+		destination: "/MemberList",
 		label: ""
 	}
 	return(
 	<>
+	<div className="body">
 		<div className="container p-3">
 			<Highlights />		
 		</div>
@@ -20,6 +21,7 @@ export default function Home(){
 		<SubNavbar />
 		<Content />
 		<Footer />
+	</div>
 	</>
  		
  	)

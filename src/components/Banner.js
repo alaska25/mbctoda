@@ -14,9 +14,9 @@ export default function Banner({data}){
 	            	
 
 	       <Col className="p-5 text-center">
-					<h1 className="text-dark fw-bold">{title}</h1>
+					<h2 className="text-light fw-bold">{title}</h2>
 					<p className="text-dark fw-bold">{content}</p>
-					<Button as={Link} to="/register" eventKey="/register">Get Started</Button>
+					<Button as={Link} to="/MemberList" eventKey="/MemberList">BOOK NOW</Button>
 	       </Col>
     	</div>	
 	</>
