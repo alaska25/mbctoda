@@ -5,7 +5,7 @@ export default function Header() {
            <div className="container-fluid ">
                <div className="row">
                <div className="col-sm-12">
-                   <h2 className="fw-bold text-center text-warning">WELCOME TO OUR WEBSITE</h2>
+                   <h1 className="fw-bold text-center text-light">WELCOME TO MBCTODA</h1>
                </div><br/>
                    <div className="col-12">
                        <Carousel>
