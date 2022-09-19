@@ -16,10 +16,7 @@ export default function Header() {
                                    src="https://i.ytimg.com/vi/QodsJPQNHNs/maxresdefault.jpg"
                                    alt="First slide"
                                />
-                               <Carousel.Caption>
-                                   <h3></h3>
-                                   <p></p>
-                               </Carousel.Caption>
+                               
                            </Carousel.Item>
 
                            <Carousel.Item>
@@ -28,11 +25,6 @@ export default function Header() {
                                    src="https://i.ytimg.com/vi/EdrmjD5j7Mc/maxresdefault.jpg"
                                    alt="Second slide"
                                />
-
-                               <Carousel.Caption>
-                                   <h3></h3>
-                                   <p></p>
-                               </Carousel.Caption>
                            </Carousel.Item>
 
                        </Carousel>
