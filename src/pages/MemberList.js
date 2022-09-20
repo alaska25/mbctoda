@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function MemberList(){
 	return(
 	<>
-		<div className="container">
+		<div className="container-fluid">
 		<Button as={Link} to="/" eventKey="/" className="mt-2"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
-		<h2 className="text-center mt-2 fw-bold fw-bold">We are happy to serve you.<br/>You can call and set appointment anytime. Thank you!</h2><br/>
+		<h2 className="text-center mt-2 fw-bold fw-bold">We are happy to serve you.<br/>You can call and set appointment anytime. Thank you!</h2>
 
 	    <Table striped bordered hover className="text-center mt-3">
 			      <thead className="mt-5">
@@ -16,7 +16,7 @@ export default function MemberList(){
 			          <th>I.D&nbsp;#</th>
 			          <th>Complete Name</th>
 			          <th>Contact #</th>
-			          <th>Call Me</th>
+			          <th>Action</th>
 			        </tr>
 			      </thead>
 			      <tbody>
