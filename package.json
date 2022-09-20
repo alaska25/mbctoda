@@ -21,6 +21,7 @@
     "react-player": "^2.10.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-super-responsive-table": "^5.2.1",
     "react-use-cart": "^1.13.0",
     "react-youtube": "^9.0.3",
     "sweetalert2": "^11.4.26",
