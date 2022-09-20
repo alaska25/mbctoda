@@ -8,7 +8,7 @@ export default function MemberList(){
 	<>
 		<div className="container" style={{overflow:"auto"}}>
 		<Button as={Link} to="/" eventKey="/" className="mt-2"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
-		<h2 className="text-center mt-2 fw-bold fw-bold">We are happy to serve you.<br/>You can call and set appointment anytime. Thank you!</h2>
+		<h2 className="text-center mt-2 fw-bold fw-bold">We are happy to serve you.<br/>You can call and set appointment anytime.<br/>Thank you!</h2>
 	    <Table striped bordered hover className="text-center mt-3 col-sm-3">
 			      <thead className="mt-5">
 			        <tr className="text-dark fw-bold">
