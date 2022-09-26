@@ -12,10 +12,8 @@ export default function Home(){
 	}
 	return(
 	<>
-	<div className="body">
-		<div className="container p-3">
-			<Highlights />		
-		</div>
+	<div className="body">	
+		<Highlights />		
 		<Banner data = {data} />
 		<Content />
 		<Footer />

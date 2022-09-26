@@ -5,14 +5,14 @@
   padding: 0;
 }
 .body{
-  background-image:url('https://cdn.pixabay.com/photo/2021/10/11/17/54/technology-6701504_960_720.jpg');
+  background-color:#0C0752;
   background-size:cover;
   background-position: center center;
   height: 100vh;
   background-repeat: no-repeat;
 }
 .button{
-  border-radius: 12px;
+  border-radius: 0;
 }
 .button:hover{
   background-color: green;
@@ -147,37 +147,7 @@ footer{
   margin-bottom: 3px;
 }
 
-/*Sub Navbar*/
-#mySidenav a {
-  position: absolute;
-  left: -70px;
-  transition: 0.1s;
-  padding: 15px;
-  width: 82px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 0px 0px 0;
-}
 
-#mySidenav a:hover {
-  left: 0;
-}
-
-#home {
-  top: 355px;
-  background-color:  #004e92;
-}
-
-#projects {
-  top: 415px;
-  background-color: #000428;
-}
-
-#contact {
-  top: 475px;
-  background-color: #56ab2f;
-}
 
 /*Content Section*/
 .submenu {
@@ -226,10 +196,32 @@ footer{
   text-align: center;
 }
 
+/*Member List Control*/
+ol {
+  background: #1B0DDF;
+  padding: 20px;
+}
+ol li {
+  background: #1B0DDF;
+  color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+}
+.b-primary{
+  background-image: url("../public/images/pic4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
 /*Responsive Control*/
 @media only screen and (max-width: 480px) {
 img {
 width: 100%;
+}
+}
+@media only screen and (max-width: 480px) {
+.h2 {
+font-size: 10px;
 }
 }
 
