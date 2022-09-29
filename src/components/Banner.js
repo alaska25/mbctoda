@@ -11,7 +11,7 @@ export default function Banner({data}){
        	
 	       <Col className="p-3 text-center">
 					<h2 className="fw-bold">We're making your everyday better.</h2>
-					<Button as={Link} to="/MemberList" eventKey="/MemberList">Book Now</Button>
+					<Button as={Link} to="/MemberList" eventKey="/MemberList">Book A Ride</Button>
 	       </Col>
     		
 	</>

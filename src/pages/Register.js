@@ -149,36 +149,37 @@ export default function Register(){
 						<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit = {(e) => registerUser(e)}>
 
 							<Form.Group className="p-3" controlId="firstName">
-							  <Form.Label>First Name:</Form.Label>
-							  <Form.Control type="text" placeholder="Type your first name" value={firstName} onChange={e => setFirstName(e.target.value)}/>
+							  <Form.Label>First Name</Form.Label>
+							  <Form.Control type="text" placeholder="Enter First Name" value={firstName} onChange={e => setFirstName(e.target.value)}/>
 							</Form.Group>
 
 							<Form.Group className="p-3" controlId="">
 							  <Form.Label>Last Name</Form.Label>
-							  <Form.Control type="text" placeholder="Type your last name" value={lastName} onChange={e => setLastName(e.target.value)}/>
+							  <Form.Control type="text" placeholder="Enter Last Name" value={lastName} onChange={e => setLastName(e.target.value)}/>
 							</Form.Group>
 
 							<Form.Group className="p-3" controlId="mobileNo">
 							  <Form.Label>Mobile Number</Form.Label>
-							  <Form.Control type="number" placeholder="Type your contact number" value={mobileNo} min="0" onChange={e => setMobileNo(e.target.value)}/>
+							  <Form.Control type="number" placeholder="Enter Mobile Number" value={mobileNo} min="0" onChange={e => setMobileNo(e.target.value)}/>
 							</Form.Group>
 
 						      <Form.Group className="p-3" controlId="userEmail">
 						        <Form.Label>Email address</Form.Label>
-						        <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
+						        <Form.Control type="email" placeholder="Enter Email Address" value={email} onChange={e => setEmail(e.target.value)}/>
 						        <Form.Text className="text-muted">
 						          We'll never share your email with anyone else.
 						        </Form.Text>
 						      </Form.Group>
 
 						      <Form.Group className="p-3" controlId="password1">
-						        <Form.Label>Password<span className="text-danger">*</span></Form.Label>
+						        <Form.Label>Password<span className="text-danger">*</span>
+						        </Form.Label>
 						        <Form.Control type="password" placeholder="Enter your password" value={password1} onChange={e => setPassword1(e.target.value)}/>
 						      </Form.Group>
 
 						      <Form.Group className="p-3" controlId="password2">
-						        <Form.Label>Verify Password<span className="text-danger">*</span></Form.Label>
-						        <Form.Control type="password" placeholder="Enter same password " value={password2} onChange={e => setPassword2(e.target.value)}/>
+						        <Form.Label>Confirm Password<span className="text-danger">*</span></Form.Label>
+						        <Form.Control type="password" placeholder="Enter Password Again " value={password2} onChange={e => setPassword2(e.target.value)}/>
 						      </Form.Group>
 						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our ' required/><span className="text-end hyperlink"><Nav.Link className="text-center" as={Link} to="/term-policies" eventKey="/term-policies" >Terms and Privacy Policy.</Nav.Link></span> <br/><br/>
 					      

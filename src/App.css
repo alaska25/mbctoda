@@ -213,6 +213,10 @@ ol li {
   background-position: center;
   height: 100vh;
 }
+.b-size{
+  maxHeight: "20vw";
+  maxWidth: "50vw";
+}
 /*Responsive Control*/
 @media only screen and (max-width: 480px) {
 img {

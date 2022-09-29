@@ -7,13 +7,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Medellin from "../pages/Medellin";
 import Bogo from "../pages/Bogo";
 import SanRemegio from "../pages/SanRemegio";
+
 export default function MemberList(){
 	return(
 	<>
 		
 		<Container>
 			<Button as={Link} to="/" eventKey="/" className="mt-2 bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
-			<h3 className="text-center fw-bold">Please select list of our active and trusted drivers.</h3>
+			<h3 className="text-center fw-bold">Please Select Your Location</h3>
 	      <Medellin />
 	      <br/>
 	      <Bogo />

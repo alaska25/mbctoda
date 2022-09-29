@@ -27,7 +27,7 @@ export default function AppNavbar(){
 	              			
 			              		<Nav.Link as={Link} to="/admindashboard" eventKey="/admindashboard" active ><FontAwesomeIcon icon={faDashboard} className="ms-1"></FontAwesomeIcon>&nbsp;AdminDashboard</Nav.Link>            
 			              	: 
-				              	<Nav.Link as={Link} to="/services" eventKey="/services"><FontAwesomeIcon icon={faGears} className="ms-1"></FontAwesomeIcon>&nbsp;Services</Nav.Link>
+				              	<Nav.Link as={Link} to="/services" eventKey="/services" id="#services"><FontAwesomeIcon icon={faGears} className="ms-1"></FontAwesomeIcon>&nbsp;Services</Nav.Link>
 				        
 	              	}
 	              	
