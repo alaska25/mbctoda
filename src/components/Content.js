@@ -8,11 +8,10 @@ export default function Content(){
 		<SubContent />
 		<AboutUs />
 		<hr/>
-		<Services />
-		<hr/>
+		<Services /><br/>
 			<div className="text-center text-dark bg-light">
-				<div className="container">
-					<h3>Customer Support 24/7</h3>
+				<div className="container p-3">
+					<h3 className="fw-bold">Customer Support 24/7</h3>
 					<p>We are real people, we love our work, and we care about helping you. <br/> MBCToda is not your ordinary association. Expect extraordinary support around the clock.</p>
 				</div>
 		    	<div className="container">
