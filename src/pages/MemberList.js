@@ -4,8 +4,17 @@ import { Link } from "react-router-dom";
 import { Card, Button, Collapse, Container } from "react-bootstrap";
 import { faPhone, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Medellin from "../pages/Medellin";
+import Antipolo from "../pages/Antipolo";
 import Bogo from "../pages/Bogo";
+import Curva from "../pages/Curva";
+import Daanlungsod from "../pages/Daanlungsod";
+import Dayhagon from "../pages/Dayhagon";
+import DonPedro from "../pages/DonPedro";
+import LamintakNorte from "../pages/LamintakNorte";
+import LamintakSur from "../pages/LamintakSur";
+import Medellin from "../pages/Medellin";
+import Polambato from "../pages/Polambato";
+import Kawit from "../pages/Kawit";
 import SanRemegio from "../pages/SanRemegio";
 
 export default function MemberList(){
@@ -15,10 +24,17 @@ export default function MemberList(){
 		<Container>
 			<Button as={Link} to="/" eventKey="/" className="mt-2 bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
 			<h3 className="text-center fw-bold">Please Select Your Location</h3>
+		  <Antipolo />
+		  <Bogo />
+		  <Curva />
+		  <Daanlungsod />
+		  <Dayhagon />
+		  <DonPedro />
+		  <Kawit />
+		  <LamintakNorte />
+		  <LamintakSur />
 	      <Medellin />
-	      <br/>
-	      <Bogo />
-	      <br/>
+	      <Polambato />
 	      <SanRemegio />
 	      <br/><br/><br/>
 	      <h4 className="pt-2 text-start fw-bold">Step By Step Guide:</h4>

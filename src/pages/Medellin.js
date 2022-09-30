@@ -15,7 +15,7 @@ export default function Medellin(){
 		        aria-expanded={open}
 		        className="w-100 rounded-0 square square border-top text-start bg-primary"
 		      >
-		        Medellin
+		        Poblacion
 		        <FontAwesomeIcon icon={faAnglesDown} className="float-end"></FontAwesomeIcon>
 		      </Button>
 		      <Collapse in={open}>
@@ -53,29 +53,23 @@ export default function Medellin(){
 		          			          <td><a href="tel:09222090957"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 		          			           <td><img src="./images/4star.png" alt="ratings" className="img-fluid h-20"/></td>
 		          			        </tr>
+		          			     
 		          			        <tr>
 		          			          <td>004</td>
-		          			          <td>Arman</td>
-		          			          <td>09423948532</td>
-		          			          <td><a href="tel:09423948532"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
-		          			           <td><img src="./images/4star.png" alt="ratings" className="img-fluid h-20"/></td>
-		          			        </tr>
-		          			        <tr>
-		          			          <td>005</td>
 		          			          <td>Alan</td>
 		          			          <td>09269498189</td>
 		          			          <td><a href="tel:09269498189"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 		          			           <td><img src="./images/4star.png" alt="ratings" className="img-fluid h-20"/></td>
 		          			        </tr>
 		          			        <tr>
-		          			          <td>006</td>
+		          			          <td>005</td>
 		          			          <td>JERRY</td>
 		          			          <td>09494135052</td>
 		          			          <td><a href="tel:09494135052"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 		          			           <td><img src="./images/4star.png" alt="ratings" className="img-fluid h-20"/></td>
 		          			        </tr>
 		          			        <tr>
-		          			          <td>007</td>
+		          			          <td>006</td>
 		          			          <td>JOJE</td>
 		          			          <td>097554473062</td>
 		          			          <td><a href="tel:097554473062"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
