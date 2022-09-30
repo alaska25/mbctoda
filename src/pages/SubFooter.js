@@ -8,7 +8,7 @@ export default function SubFooter(){
 
 	return(
 	<>
-		<footer className="container-fluid footer subfooter">
+		<footer className="container-fluid footer subfooter" id="contact">
 		  <div className="container text-light">
 		    <div className="row">
 		      <div className="col-sm-3">

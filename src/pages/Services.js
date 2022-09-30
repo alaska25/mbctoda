@@ -4,7 +4,7 @@ export default function Services(){
 	
 	return(
 		<>
-		<div className="container">
+		<div className="container" id="services">
 			<h2 className="text-center fw-bold">Our Services Available</h2>
 			<div className="d-flex align-items-center justify-content-center">
 			         <Button as={Link} to="/MemberList" eventKey="/MemberList" className="m-2 w-100 h-30 b-size">

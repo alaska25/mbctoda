@@ -1,11 +1,15 @@
 import image from "react-bootstrap";
 import SubContent from "../pages/SubContent";
+import AboutUs from "../pages/AboutUs";
+import Services from "../pages/Services";
 export default function Content(){
 	return(
 		<>
 		<SubContent />
-		<div className="container-fluid">		
-		</div>
+		<AboutUs />
+		<hr/>
+		<Services />
+		<hr/>
 			<div className="text-center text-dark bg-light">
 				<div className="container">
 					<h3>Customer Support 24/7</h3>
