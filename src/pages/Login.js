@@ -119,7 +119,7 @@ export default function Login(){
 				<div className="d-flex justify-content-center container align-items-center my-5">
 					<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => login(e)}>
 						<Form.Group className="p-3 text-dark" controlId="userEmail">
-						  <Form.Label>Email Address:</Form.Label>
+						  <Form.Label>Email Address</Form.Label>
 						  <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
 						  <Form.Text className="text-muted">
 						    We'll never share your email with anyone else.
@@ -127,7 +127,7 @@ export default function Login(){
 						</Form.Group>
 
 						<Form.Group className="p-3 text-dark" controlId="password">
-						  <Form.Label>Password<span className="text-danger">*</span></Form.Label>
+						  <Form.Label>Password</Form.Label>
 						  <Form.Control type="password" placeholder="Type your password" value={password} onChange={e => setPassword(e.target.value)}/>
 						</Form.Group>
 							
