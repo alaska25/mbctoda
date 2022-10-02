@@ -136,8 +136,7 @@ export default function Register(){
 			(user.id !== null)
 
 			?
-				//Redirected to the Item Master Data.
-				<Navigate to="/ItemMasterData"/>
+				<Navigate to="/login"/>
 			:
 
 			<>

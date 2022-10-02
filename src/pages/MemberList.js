@@ -24,17 +24,17 @@ export default function MemberList(){
 		<Container>
 			<Button as={Link} to="/" eventKey="/" className="mt-2 bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
 			<h3 className="text-center fw-bold">Please Select Your Location</h3>
-		  <Antipolo />
-		  <Bogo />
-		  <Curva />
-		  <Daanlungsod />
-		  <Dayhagon />
-		  <DonPedro />
-		  <Kawit />
-		  <LamintakNorte />
-		  <LamintakSur />
-	      <Medellin />
-	      <Polambato />
+		  <Antipolo /><br/>
+		  <Bogo /><br/>
+		  <Curva /><br/>
+		  <Daanlungsod /><br/>
+		  <Dayhagon /><br/>
+		  <DonPedro /><br/>
+		  <Kawit /><br/>
+		  <LamintakNorte /><br/>
+		  <LamintakSur /><br/>
+	      <Medellin /><br/>
+	      <Polambato /><br/>
 	      <SanRemegio />
 	      <br/><br/><br/>
 	      <h4 className="pt-2 text-start fw-bold">Step By Step Guide:</h4>
