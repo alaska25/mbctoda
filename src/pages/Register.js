@@ -172,13 +172,13 @@ export default function Register(){
 						      </Form.Group>
 
 						      <Form.Group className="p-3" controlId="password1">
-						        <Form.Label>Password<span className="text-danger">*</span>
+						        <Form.Label>Password
 						        </Form.Label>
 						        <Form.Control type="password" placeholder="Enter your password" value={password1} onChange={e => setPassword1(e.target.value)}/>
 						      </Form.Group>
 
 						      <Form.Group className="p-3" controlId="password2">
-						        <Form.Label>Confirm Password<span className="text-danger">*</span></Form.Label>
+						        <Form.Label>Confirm Password</Form.Label>
 						        <Form.Control type="password" placeholder="Enter Password Again " value={password2} onChange={e => setPassword2(e.target.value)}/>
 						      </Form.Group>
 						  <MDBCheckbox name='flexCheck' value='' label='By clicking Sign Up, you agree to our ' required/>Terms and Privacy Policy. <br/><br/>
