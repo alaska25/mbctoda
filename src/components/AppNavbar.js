@@ -10,16 +10,16 @@ export default function AppNavbar(){
 	const {user} = useContext(UserContext);
 
 	return(
-				    <Navbar collapseOnSelect expand="lg" variant="dark" className="animate-navbar nav-theme justify-content-between bgdark">
-	          <Container>
-	           	<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+				    <Navbar sticky="top" collapseOnSelect expand="lg" variant="light" bg="light" className="animate-navbar nav-theme justify-content-between bgdark h-100">
+				    <Container>
+				    <Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><strong><a className="text-danger text ms-1">MBCT</a><a className="text-warning text">oda</a></strong></Nav.Link>	           	
+				    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+	   
 	            <Navbar.Collapse id="responsive-navbar-nav">
-	              	<Nav className="me-auto" defaultActiveKey="/">
-	              	<Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><strong><a className="text-danger text ms-1">MBCT</a><a className="text-warning text">oda</a></strong></Nav.Link>
-	              	
+	              	<Nav className="me-auto" defaultActiveKey="/">	              	
 	           	</Nav>
 	            <Nav className="text-center">
-	            	<Nav.Link as={Link} to="/" eventKey="/" className="nav-theme" active><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
+	            	<Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
 	            	<Nav.Link as={Link} to="/aboutus" eventKey="/aboutus" href="#aboutus"><FontAwesomeIcon icon={faUsers} className="ms-1"></FontAwesomeIcon>&nbsp;About Us</Nav.Link>
 	              	{
 	              		(user.isAdmin)
@@ -48,7 +48,7 @@ export default function AppNavbar(){
 
 	            </Nav>
 	            </Navbar.Collapse>
-	          </Container>
+	            </Container>
 	        </Navbar>
 		)
 

@@ -1,6 +1,8 @@
+
 export default function AboutUs(){
 	return(
-			<div className="container" id="aboutus">
+		<>
+			<div className="container p-3" id="aboutus">
 					<h2 className="text-center fw-bold p-3">About Us</h2>
 			      <p>
 			      	Our story is simply driven by a passion to bring convenient, efficient and reliable transport solutions to everyone, everywhere.<br/><br/>
@@ -27,5 +29,6 @@ export default function AboutUs(){
 			      	 
 			      </p>	
 			 </div>
+		</>
 		)
 }
