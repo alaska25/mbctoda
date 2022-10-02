@@ -22,6 +22,7 @@ export default function Home(){
 		<AboutUs />
 		<hr/>
 		<Services />
+		<hr/>
 		<Content />
 		<Footer />
 	</div>
