@@ -1,8 +1,10 @@
+import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import {Link} from "react-router-dom";
 import { faCheck, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import img1 from "./images/android.png"
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function SubFooter(){
 
@@ -76,6 +78,7 @@ export default function SubFooter(){
 		        </div>
 		      </div>
 		    </div>
+		    <a href="#"><img src={img1} width="150" fluid/></a>
 		  </div><br/>
 		</footer>
 		<div className="p-4 bgdark">
