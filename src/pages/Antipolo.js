@@ -33,9 +33,23 @@ export default function Antipolo(){
 			          		      <tbody>
 			          		        <tr>
 			          		          <td>001</td>
-			          		          <td>Dennis</td>
-			          		          <td>09655866689</td>
-			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		          <td>Arjon Moralde</td>
+			          		          <td>09976997408</td>
+			          		          <td><a href="tel:09976997408"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>002</td>
+			          		          <td>Jemar Layos</td>
+			          		          <td>09000000000</td>
+			          		          <td><a href="tel:09976997408"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>003</td>
+			          		          <td>Yonel Pable</td>
+			          		          <td>09661884680</td>
+			          		          <td><a href="tel:09661884680"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
 

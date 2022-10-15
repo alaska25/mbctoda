@@ -32,10 +32,10 @@ export default function LamintakNorte(){
 			          		      </thead>
 			          		      <tbody>
 			          		        <tr>
-			          		          <td>001</td>
-			          		          <td>Dennis</td>
-			          		          <td>09655866689</td>
-			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		          <td>1</td>
+			          		          <td>Rolando Cabagte</td>
+			          		          <td>09319196196</td>
+			          		          <td><a href="tel:09319196196"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
 

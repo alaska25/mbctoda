@@ -19,17 +19,15 @@ import SanRemegio from "../pages/SanRemegio";
 
 export default function MemberList(){
 	return(
+		
 	<>
 		
 		<Container>
 			<Button as={Link} to="/" eventKey="/" className="mt-2 bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
-			<h3 className="text-center fw-bold">Please Select Your Location</h3>
+			<h3 className="text-center fw-bold">Please Select Driver's Location</h3>
 		  <Antipolo /><br/>
 		  <Bogo /><br/>
-		  <Curva /><br/>
 		  <Daanlungsod /><br/>
-		  <Dayhagon /><br/>
-		  <DonPedro /><br/>
 		  <Kawit /><br/>
 		  <LamintakNorte /><br/>
 		  <LamintakSur /><br/>

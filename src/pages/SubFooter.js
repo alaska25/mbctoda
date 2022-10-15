@@ -78,7 +78,7 @@ export default function SubFooter(){
 		        </div>
 		      </div>
 		    </div>
-		    <a href="#"><img src={img1} width="150" fluid/></a>
+		    <a href="https://kodular.app/GXQ-FXY"><img src={img1} width="150" fluid/></a>
 		  </div><br/>
 		</footer>
 		<div className="p-4 bgdark">

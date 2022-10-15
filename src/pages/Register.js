@@ -31,7 +31,7 @@ export default function Register(){
 		e.preventDefault();
 
 		// Checking if the email is still available
-		fetch(`${process.env.REACT_APP_API_URL}/users/checkEmail`,{
+		fetch(`${process.env.REACT_APP_API_URL}/riders/checkEmail`,{
 			method: "POST",
 			headers:{
 				"Content-Type":"application/json"
@@ -52,7 +52,7 @@ export default function Register(){
 					});
 			}
 			else{
-				fetch(`${process.env.REACT_APP_API_URL}/users/register`,{
+				fetch(`${process.env.REACT_APP_API_URL}/riders/register`,{
 					method: "POST",
 					headers:{
 						"Content-Type":"application/json"
@@ -136,7 +136,7 @@ export default function Register(){
 			(user.id !== null)
 
 			?
-				<Navigate to="/login"/>
+				<Navigate to="/register"/>
 			:
 
 			<>

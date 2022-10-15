@@ -38,6 +38,21 @@ export default function Bogo(){
 			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
+			          		        <tr>
+			          		          <td>002</td>
+			          		          <td>Quirico Camay</td>
+			          		          <td>09561135550</td>
+			          		          <td><a href="tel:09561135550"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>003</td>
+			          		          <td>Joel Estorba</td>
+			          		          <td>09263102985</td>
+			          		          <td><a href="tel:09561135550"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+
 
 			          		      </tbody>
 			          		    </Table>

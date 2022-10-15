@@ -33,9 +33,23 @@ export default function Kawit(){
 			          		      <tbody>
 			          		        <tr>
 			          		          <td>001</td>
-			          		          <td>Dennis</td>
-			          		          <td>09655866689</td>
-			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		          <td>Lunie Apas</td>
+			          		          <td>09050651099</td>
+			          		          <td><a href="tel:09050651099"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>002</td>
+			          		          <td>Vicente Sabang</td>
+			          		          <td>09293272892</td>
+			          		          <td><a href="tel:09293272892"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>003</td>
+			          		          <td>Richard DelaPena</td>
+			          		          <td>09066329982</td>
+			          		          <td><a href="tel:09066329982"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
 
