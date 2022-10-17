@@ -32,10 +32,24 @@ export default function LamintakSur(){
 			          		      </thead>
 			          		      <tbody>
 			          		        <tr>
-			          		          <td>001</td>
-			          		          <td>Dennis</td>
-			          		          <td>09655866689</td>
-			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		          <td>1</td>
+			          		          <td>Joselito Ogatis</td>
+			          		          <td>09973369633</td>
+			          		          <td><a href="tel:09973369633"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>2</td>
+			          		          <td>Guillermo Delarama</td>
+			          		          <td>09362614196</td>
+			          		          <td><a href="tel:09362614196"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>3</td>
+			          		          <td>Jaime Otid</td>
+			          		          <td>09065549009</td>
+			          		          <td><a href="tel:09065549009"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
 

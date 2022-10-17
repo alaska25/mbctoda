@@ -18,8 +18,8 @@ export default function AppNavbar(){
 	            <Navbar.Collapse id="responsive-navbar-nav">
 	              	<Nav className="me-auto" defaultActiveKey="/">	              	
 	           	</Nav>
-	            <Nav className="text-center">
-	            	<Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
+	            <Nav className="text-center p-3">
+	            	<Nav.Link as={Link} to="/" eventKey="/" defaultActiveKey><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
 	            	<Nav.Link as={Link} to="/aboutus" eventKey="/aboutus" href="#aboutus"><FontAwesomeIcon icon={faUsers} className="ms-1"></FontAwesomeIcon>&nbsp;About Us</Nav.Link>
 	              	{
 	              		(user.isAdmin)
@@ -35,7 +35,7 @@ export default function AppNavbar(){
 	                (user.id !== null)
 	                    ?
 	                    <>
-	                   		<Nav.Link as={Link} to="/memberlist" eventKey="/memberlist"><FontAwesomeIcon icon={faTableList} className="ms-1"></FontAwesomeIcon>&nbsp;Driver's List </Nav.Link>
+	                   		<Nav.Link as={Link} to="/memberlist" eventKey="/memberlist"><FontAwesomeIcon icon={faUser} className="ms-1"></FontAwesomeIcon>&nbsp;Drivers </Nav.Link>
 	                    	<Nav.Link as={Link} to="/logout" eventKey="/logout">Logout</Nav.Link>	
 	                    </>                
 	                    : 

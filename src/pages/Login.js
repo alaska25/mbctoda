@@ -35,7 +35,8 @@ export default function Login(){
 		fetch(`${process.env.REACT_APP_API_URL}/users/login`, {
 			method: "POST",
 			headers: {
-				"Content-Type": "application/json"
+				"Content-Type": "application/json",
+				"mode" : "no-cors"
 			},
 			body: JSON.stringify({
 				// values are coming from our State hooks

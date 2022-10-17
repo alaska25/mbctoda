@@ -38,6 +38,27 @@ export default function LamintakNorte(){
 			          		          <td><a href="tel:09319196196"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
 			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
+			          		        <tr>
+			          		          <td>2</td>
+			          		          <td>Paulino Ursonal</td>
+			          		          <td>09511347137</td>
+			          		          <td><a href="tel:09511347137"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>3</td>
+			          		          <td>Fred Cortes</td>
+			          		          <td>09973853491</td>
+			          		          <td><a href="tel:09973853491"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>4</td>
+			          		          <td>Dario Yuson</td>
+			          		          <td>09551578464</td>
+			          		          <td><a href="tel:09551578464"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
+			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		        </tr>
 
 			          		      </tbody>
 			          		    </Table>
