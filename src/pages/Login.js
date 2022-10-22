@@ -147,7 +147,7 @@ export default function Login(){
 								</Button>
 							</div>
 						}
-						<p className="mt-2 text-center">Not a member yet? Join <a href="/register">here</a></p>
+						<p className="mt-2 text-center">Note: Only administrator can log at this time. Please be patient while system under development. This feature will be available to public anytime soon.</p>
 
 						<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
 						  Cancel
