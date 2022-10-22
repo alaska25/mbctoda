@@ -37,10 +37,9 @@ export default function MemberList(){
 	      <br/><br/><br/>
 	      <h4 className="pt-2 text-start fw-bold">Step By Step Guide:</h4>
 	      <ol>
-	        <li>Select your current location.</li>
-	        <li>Look for driver nearest from your location.</li>
-	        <li>Call and book an appointment.</li>
-	        <li>Pricing may depends upon the situation. Please negotiate with the driver.</li>
+	        <li>Book an appointment via call and text messages.</li>
+	        <li>Pricing may depends upon your destination. Please negotiate properly with our drivers.</li>
+	        <li>For your feedback and concerns with regards our services feel free to contact our customer service.</li>
 	      </ol>
 	    </div>
 	
