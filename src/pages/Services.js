@@ -8,7 +8,7 @@ export default function Services(){
 			<h2 className="text-center fw-bold">Services We Offer</h2>
 			<div className="d-flex align-items-center justify-content-center">
 			         <Button as={Link} to="/MemberList" eventKey="/MemberList" className="m-2 w-100 h-30 b-size">
-			         <h3>Get A Ride</h3>
+			         <h3>Book A Ride</h3>
 			         <p>MBCToda app is a ride hailing that connects commuters to available drivers via calls and messages.</p>
 			         </Button>
 			         <Button as={Link} to="/MemberList" eventKey="/MemberList" className="m-2 w-100 h-30">
