@@ -4,6 +4,9 @@ import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
 import { faPhone, faArrowLeft, faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import img10 from "./images/book.png"
+import img11 from "./images/3star.png"
+import img12 from "./images/4star.png"
 export default function Antipolo(){
 	const [open, setOpen] = useState(false);
 	return(
@@ -26,31 +29,31 @@ export default function Antipolo(){
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
-			          		          <th>Action</th>
 			          		          <th>Ratings</th>
+			          		          <th>Action</th>
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
 			          		        <tr>
-			          		          <td>001</td>
+			          		          <td>1</td>
 			          		          <td>Arjon Moralde</td>
 			          		          <td>09976997408</td>
-			          		          <td><a href="tel:09976997408"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
-			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		          <td><img src={img11} width="150" fluid/></td>
+			          		          <td><a href="tel:09976997408"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
-			          		          <td>002</td>
+			          		          <td>2</td>
 			          		          <td>Jemar Layos</td>
 			          		          <td>09000000000</td>
-			          		          <td><a href="tel:09976997408"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
-			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		          <td><img src={img12} width="150" fluid/></td>
+			          		          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
-			          		          <td>003</td>
+			          		          <td>3</td>
 			          		          <td>Yonel Pable</td>
 			          		          <td>09661884680</td>
-			          		          <td><a href="tel:09661884680"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
-			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		          <td><img src={img12} width="150" fluid/></td>
+			          		          <td><a href="tel:09661884680"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 
 			          		      </tbody>
