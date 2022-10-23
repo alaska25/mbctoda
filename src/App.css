@@ -217,14 +217,10 @@ ol li {
   maxWidth: "50vw";
 }
 /*Responsive Control*/
-@media only screen and (max-width: 480px) {
-img {
-width: 100%;
+@media(max-width: 600px) { 
+  .post .sc_image img { 
+    display: none; 
+  }
 }
-}
-@media only screen and (max-width: 480px) {
-.h2 {
-font-size: 10px;
-}
-}
+
 

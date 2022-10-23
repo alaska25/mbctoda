@@ -19,7 +19,7 @@ export default function AppNavbar(){
 	              	<Nav className="me-auto" defaultActiveKey="/">	              	
 	           	</Nav>
 	            <Nav className="text-center p-3">
-	            	<Nav.Link as={Link} to="/" eventKey="/" defaultActiveKey><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
+	            	<Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faHome} className="ms-1"></FontAwesomeIcon>&nbsp;Home </Nav.Link>
 	            	<Nav.Link as={Link} to="/aboutus" eventKey="/aboutus" href="#aboutus"><FontAwesomeIcon icon={faUsers} className="ms-1"></FontAwesomeIcon>&nbsp;About Us</Nav.Link>
 	              	{
 	              		(user.isAdmin)
