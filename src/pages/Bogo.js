@@ -29,7 +29,6 @@ export default function Bogo(){
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
-			          		          <th>Ratings</th>
 			          		          <th>Action</th>
 			          		        </tr>
 			          		      </thead>
@@ -38,21 +37,18 @@ export default function Bogo(){
 			          		          <td>1</td>
 			          		          <td>Dennis</td>
 			          		          <td>09655866689</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09655866689"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Quirico Camay</td>
 			          		          <td>09561135550</td>
-			          		          <td><img src={img11} width="150" fluid/></td>
 			          		          <td><a href="tel:09561135550"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Joel Estorba</td>
 			          		          <td>09263102985</td>
-			          		          <td><img src={img11} width="150" fluid/></td>
 			          		          <td><a href="tel:09263102985"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 

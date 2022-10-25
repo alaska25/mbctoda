@@ -29,7 +29,6 @@ export default function LamintakNorte(){
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
-			          		          <th>Ratings</th>
 			          		          <th>Action</th>
 			          		        </tr>
 			          		      </thead>
@@ -38,28 +37,24 @@ export default function LamintakNorte(){
 			          		          <td>1</td>
 			          		          <td>Rolando Cabagte</td>
 			          		          <td>09319196196</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09319196196"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Paulino Ursonal</td>
 			          		          <td>09511347137</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09511347137"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Fred Cortes</td>
 			          		          <td>09973853491</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09973853491"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>4</td>
 			          		          <td>Dario Yuson</td>
 			          		          <td>09551578464</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09551578464"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 

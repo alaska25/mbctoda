@@ -29,7 +29,6 @@ export default function Medellin(){
 		          			          <th>I.D&nbsp;#</th>
 		          			          <th>Names</th>
 		          			          <th>Contact #</th>
-		          			          <th>Ratings</th>
 		          			          <th>Action</th>
 		          			        </tr>
 		          			      </thead>
@@ -39,42 +38,36 @@ export default function Medellin(){
 		          			          <td>1</td>
 		          			          <td>Wilson</td>
 		          			          <td>09000000000</td>
-		          			          <td><img src={img11} width="150" fluid/></td>
 		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 		          			        </tr>
 		          			        <tr>
 		          			          <td>2</td>
 		          			          <td>Rogelio</td> 
 		          			          <td>09000000000</td>
-		          			          <td><img src={img11} width="150" fluid/></td>
 		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 		          			        </tr>
 		          			        <tr>
 		          			          <td>3</td>
 		          			          <td>Roselma</td> 
 		          			          <td>09000000000</td>
-		          			          <td><img src={img11} width="150" fluid/></td>
 		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 		          			        </tr>
 		          			        <tr>
 		          			          <td>4</td>
 		          			          <td>Mateo</td> 
 		          			          <td>09000000000</td>
-		          			          <td><img src={img11} width="150" fluid/></td>
 		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 		          			        </tr>
 		          			        <tr>
 		          			          <td>5</td>
 		          			          <td>Pedro</td> 
 		          			          <td>09000000000</td>
-		          			          <td><img src={img11} width="150" fluid/></td>
 		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 		          			        </tr>
 		          			        <tr>
 		          			          <td>6</td>
 		          			          <td>Bienes</td> 
 		          			          <td>09000000000</td>
-		          			          <td><img src={img11} width="150" fluid/></td>
 		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 		          			        </tr>
 		          			      </tbody>

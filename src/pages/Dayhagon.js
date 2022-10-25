@@ -27,7 +27,6 @@ export default function Dayhagon(){
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
 			          		          <th>Action</th>
-			          		          <th>Ratings</th>
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
@@ -36,7 +35,6 @@ export default function Dayhagon(){
 			          		          <td>Dennis</td>
 			          		          <td>09655866689</td>
 			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
-			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
 			          		        </tr>
 
 			          		      </tbody>

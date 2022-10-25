@@ -29,7 +29,6 @@ export default function Daanlungsod(){
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
-			          		          <th>Ratings</th>
 			          		          <th>Action</th>
 			          		        </tr>
 			          		      </thead>
@@ -38,28 +37,24 @@ export default function Daanlungsod(){
 			          		          <td>1</td>
 			          		          <td>Ben Baring</td>
 			          		          <td>09261263719</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09261263719"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Marvin Baring</td>
 			          		          <td>09222090957</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09222090957"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Amando Villegas</td>
 			          		          <td>09324711214</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09324711214"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>4</td>
 			          		          <td>Joselito Chua</td>
 			          		          <td>09184789095</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09184789095"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 

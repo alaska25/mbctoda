@@ -29,7 +29,6 @@ export default function SanRemegio(){
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
-			          		          <th>Ratings</th>
 			          		          <th>Action</th>
 			          		        </tr>
 			          		      </thead>
@@ -38,7 +37,6 @@ export default function SanRemegio(){
 			          		          <td>001</td>
 			          		          <td>Unknown</td>
 			          		          <td>09000000000</td>
-			          		          <td><img src={img12} width="150" fluid/></td>
 			          		          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
 			          		        </tr>
 			          		      </tbody>
