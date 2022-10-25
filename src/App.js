@@ -17,6 +17,7 @@ import Services from "./pages/Services";
 import TermPolicies from "./pages/TermPolicies";
 import AddService from "./pages/AddService";
 import ActiveDrivers from "./pages/ActiveDrivers";
+import ForgottenPassword from "./pages/ForgottenPassword";
 
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
                     <Route exact path ="/term-policies" element={<TermPolicies />} />
                     <Route exact path ="/add-service" element={<AddService />} />
                     <Route exact path ="/active-driver" element={<ActiveDrivers />} />
+                    <Route exact path ="/forgottenpassword" element={<ForgottenPassword />} />
                     
                 </Routes>
 

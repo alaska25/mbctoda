@@ -10,7 +10,7 @@ import InputLabel from "@material-ui/core/InputLabel";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import Input from "@material-ui/core/Input";
 
-export default function Login(){
+export default function ForgottenPassword(){
 
 	const {user, setUser} = useContext(UserContext);
 
@@ -21,7 +21,7 @@ export default function Login(){
 	//State to determine whether the button is enabled or not
 	const [isActive, setIsActive] = useState(false);
 
-	function login(e){
+	function forgottenpass(e){
 		//prevents the page redirection via form submit
 		e.preventDefault();
 
@@ -32,7 +32,7 @@ export default function Login(){
 				// .then(res => res.json())
 					// Capture the converted data.
 				// .then(data => {})
-		fetch(`${process.env.REACT_APP_API_URL}/users/login`, {
+		fetch(`${process.env.REACT_APP_API_URL}/users/requestPasswordReset`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
@@ -41,7 +41,7 @@ export default function Login(){
 			body: JSON.stringify({
 				// values are coming from our State hooks
 				email: email,
-				password: password
+				redirectUrl: "http://localhost:3000/passwordreset"
 			})
 		})
 		.then(res => res.json())
@@ -115,21 +115,13 @@ export default function Login(){
 		<>
 			<div className="container-fluid">
 				<div>
-					<h1 className="p-2 text-center text-dark">MBCToda Login</h1>
+					<h1 className="p-2 text-center text-dark">Password Reset</h1>
 				</div>
 				<div className="d-flex justify-content-center container align-items-center my-5">
-					<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => login(e)}>
+					<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => forgottenpass(e)}>
 						<Form.Group className="p-3 text-dark" controlId="userEmail">
 						  <Form.Label>Email Address</Form.Label>
-						  <Form.Control type="email" placeholder="Type your email address" value={email} onChange={e => setEmail(e.target.value)}/>
-						  <Form.Text className="text-muted">
-						    We'll never share your email with anyone else.
-						  </Form.Text>
-						</Form.Group>
-
-						<Form.Group className="p-3 text-dark" controlId="password">
-						  <Form.Label>Password</Form.Label>
-						  <Form.Control type="password" placeholder="Type your password" value={password} onChange={e => setPassword(e.target.value)}/>
+						  <Form.Control type="email" placeholder="Enter your email address" value={email} onChange={e => setEmail(e.target.value)}/>
 						</Form.Group>
 							
 						{
@@ -137,22 +129,16 @@ export default function Login(){
 							?
 							<div className="d-grid gap-2 p-3">
 								<Button variant="success" type="submit" id="submitBtn">
-								  Log In
+								  Submit
 								</Button>
 							</div>
 							:
 							<div className="d-grid gap-2 p-3">
 								<Button variant="primary" type="submit" id="submitBtn" size="sm" disabled>
-								  Log In
+								  Submit
 								</Button>
 							</div>
 						}
-						<p className="mt-2 text-center">Forgotten Password? <a href="/forgottenpassword">Reset here</a></p>
-						<p className="mt-2 text-center">Not a member yet? Join <a href="/register">here</a></p>
-
-						<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
-						  Cancel
-						</Button>
 				
 					</Form>
 				</div>
