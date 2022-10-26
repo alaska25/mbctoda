@@ -37,19 +37,19 @@ export default function Bogo(){
 			          		          <td>1</td>
 			          		          <td>Dennis</td>
 			          		          <td>09655866689</td>
-			          		          <td><a href="tel:09655866689"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09655866689"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Quirico Camay</td>
 			          		          <td>09561135550</td>
-			          		          <td><a href="tel:09561135550"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09561135550"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Joel Estorba</td>
 			          		          <td>09263102985</td>
-			          		          <td><a href="tel:09263102985"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09263102985"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 
 

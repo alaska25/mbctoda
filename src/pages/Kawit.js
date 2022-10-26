@@ -37,19 +37,19 @@ export default function Kawit(){
 			          		          <td>1</td>
 			          		          <td>Lunie Apas</td>
 			          		          <td>09050651099</td>
-			          		          <td><a href="tel:09050651099"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09050651099"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Vicente Sabang</td>
 			          		          <td>09293272892</td>
-			          		          <td><a href="tel:09293272892"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09293272892"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Richard DelaPena</td>
 			          		          <td>09066329982</td>
-			          		          <td><a href="tel:09066329982"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09066329982"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 
 			          		      </tbody>

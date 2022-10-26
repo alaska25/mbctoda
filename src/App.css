@@ -216,6 +216,12 @@ ol li {
   maxHeight: "20vw";
   maxWidth: "50vw";
 }
+.border{
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
 /*Responsive Control*/
 @media(max-width: 600px) { 
   .post .sc_image img { 

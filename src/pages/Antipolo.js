@@ -37,19 +37,19 @@ export default function Antipolo(){
 			          		          <td>1</td>
 			          		          <td>Arjon Moralde</td>
 			          		          <td>09976997408</td>
-			          		          <td><a href="tel:09976997408"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09976997408"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Jemar Layos</td>
 			          		          <td>09000000000</td>
-			          		          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09000000000"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Yonel Pable</td>
 			          		          <td>09661884680</td>
-			          		          <td><a href="tel:09661884680"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09661884680"><button className="bg-danger text-light w-100 border">Book Now</button></a></td>
 			          		        </tr>
 
 			          		      </tbody>
