@@ -4,9 +4,9 @@ import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
 import { faPhone, faArrowLeft, faAnglesDown} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import img10 from "./images/book.png"
 import img11 from "./images/3star.png"
-import img12 from "./images/4star.png"
+import img14 from "./images/4star.png"
+import img13 from "./images/5star.png"
 export default function SanRemegio(){
 	const [open, setOpen] = useState(false);
 	return(
@@ -30,14 +30,23 @@ export default function SanRemegio(){
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
 			          		          <th>Action</th>
+			          		          <th>Ratings</th>
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
 			          		        <tr>
-			          		          <td>001</td>
-			          		          <td>Unknown</td>
+			          		          <td>1</td>
+			          		          <td>Arthur Besabelle</td>
+			          		          <td>09562915084</td>
+			          		          <td><a href="tel:09562915084"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td><img src={img13} fluid /></td>
+			          		        </tr>
+			          		        <tr>
+			          		          <td>2</td>
+			          		          <td>Alexis Papasin</td>
 			          		          <td>09000000000</td>
-			          		          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09562915084"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td><img src={img13} fluid /></td>
 			          		        </tr>
 			          		      </tbody>
 			          		    </Table>

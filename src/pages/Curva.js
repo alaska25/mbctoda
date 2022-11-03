@@ -4,6 +4,9 @@ import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
 import { faPhone, faArrowLeft, faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import img11 from "./images/3star.png"
+import img14 from "./images/4star.png"
+import img13 from "./images/5star.png"
 export default function Curva(){
 	const [open, setOpen] = useState(false);
 	return(
@@ -22,21 +25,22 @@ export default function Curva(){
 			        <div className="container" style={{overflow:"auto"}}>
 			              <Table striped bordered hover className="text-center mt-3 col-sm-3">
 			          		      <thead className="mt-5">
-			          		        <tr className="text-dark fw-bold">
+			          		          <tr className="text-dark fw-bold">
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
 			          		          <th>Action</th>
 			          		          <th>Ratings</th>
+
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
 			          		        <tr>
-			          		          <td>001</td>
-			          		          <td>Dennis</td>
-			          		          <td>09655866689</td>
-			          		          <td><a href="tel:09655866689"><FontAwesomeIcon icon={faPhone} className="ms-1"></FontAwesomeIcon></a></td>
-			          		           <td><img src="./images/4star.png" alt="ratings" className="img-fluid"/></td>
+			          		          <td>1</td>
+			          		          <td>Roger Mendiola</td>
+			          		          <td>09068950312</td>
+			          		           <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		           <td><img src={img13} fluid /></td>
 			          		        </tr>
 
 			          		      </tbody>

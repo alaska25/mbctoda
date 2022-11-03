@@ -6,14 +6,16 @@ import { faPhone, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Antipolo from "../pages/Antipolo";
 import Bogo from "../pages/Bogo";
+import Panugnawan from "../pages/Panugnawan";
 import Curva from "../pages/Curva";
 import Daanlungsod from "../pages/Daanlungsod";
 import Dayhagon from "../pages/Dayhagon";
+import Mahawak from "../pages/Mahawak";
 import DonPedro from "../pages/DonPedro";
 import LamintakNorte from "../pages/LamintakNorte";
 import LamintakSur from "../pages/LamintakSur";
 import Medellin from "../pages/Medellin";
-import Polambato from "../pages/Polambato";
+import CaputatanSur from "../pages/CaputatanSur";
 import Kawit from "../pages/Kawit";
 import SanRemegio from "../pages/SanRemegio";
 import {Navigate} from "react-router-dom";
@@ -32,19 +34,23 @@ export default function MemberList(){
 					<h3 className="text-center fw-bold">Please Select Driver's Location</h3><br/>
 				  <Antipolo /><br/>
 				  <Bogo /><br/>
+				  <Curva /><br/>
+				  <CaputatanSur/><br/>
 				  <Daanlungsod /><br/>
 				  <Kawit /><br/>
 				  <LamintakNorte /><br/>
 				  <LamintakSur /><br/>
 			      <Medellin /><br/>
-			      <Polambato /><br/>
+			      <Mahawak /><br/>
+			      <Panugnawan /><br/>
 			      <SanRemegio />
 			      <br/><br/><br/>
 			      <h4 className="pt-2 text-start fw-bold">Step By Step Guide:</h4>
 			      <ol>
+			      	<li>Select drivers based on your current location.</li>
 			        <li>Book an appointment via call and text messages.</li>
 			        <li>Pricing may depends upon your destination. Please negotiate properly with our drivers.</li>
-			        <li>For your feedback and concerns with regards our services feel free to contact our customer service.</li>
+			        <li>For your feedback and concerns feel free to contact our customer service. Thank you!</li>
 			      </ol>
 			    </div>
 			</>

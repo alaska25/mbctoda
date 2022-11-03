@@ -11,14 +11,14 @@ export default function Header() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://img.freepik.com/premium-vector/fast-online-delivery-service-package-bedroom-home-by-courier-smartphone-illustration_176350-32.jpg?w=1380"
+                                    src="https://realestate.jcg.services/wp-content/uploads/2020/11/Barangay-Poblacion-Medellin.Map_.png"
                                     alt="Second slide" img-fluid
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://img.freepik.com/premium-vector/fast-delivery-package-by-scooter-mobile-phone-order-package-e-commerce-by-app-tracking-courier-by-map-application-three-dimensional-concept-vector-illustration_176350-3.jpg?w=1380"
+                                    src="https://realestate.jcg.services/wp-content/uploads/2020/11/Barangay-Poblacion-Medellin.Map_.png"
                                     alt="Third slide" img-fluid
                                 />
                             </Carousel.Item>

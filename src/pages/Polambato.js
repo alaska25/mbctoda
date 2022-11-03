@@ -37,7 +37,7 @@ export default function Polambato(){
 			          		          <td>001</td>
 			          		          <td>Unknown</td>
 			          		          <td>09000000000</td>
-			          		          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
+			          		          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
 			          		        </tr>
 
 			          		      </tbody>

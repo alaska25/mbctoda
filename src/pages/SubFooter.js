@@ -16,7 +16,7 @@ export default function SubFooter(){
 		      <div className="col-sm-3">
 		        <div className="footer-widget">
 		        <div className="p-1">
-		          <h3 className="space"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><a className="text-danger text ms-1">MBCT</a><a className="text-warning text">oda</a></h3>
+		          <h3 className="space"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><a className="text-danger text">MBCT</a><a className="text-warning text">oda</a></h3>
 		          	<p>We deliver passenger to each destination with love.</p>
 		          	<p>Send Email:&nbsp;<a href="mailto:mbctoda@gmail.com">mbctoda@gmail.com</a></p>
 		        </div>
@@ -83,9 +83,12 @@ export default function SubFooter(){
 		</footer>
 		<div className="p-4 bgdark">
 		<hr/>	
-				<Nav.Link>
-		        		<p className="text-muted text-center"> &copy;&nbsp;<strong>MBCToda</strong> 2018 - 2022.</p>
-		        </Nav.Link>
+		<p className="text-muted text-center"> &copy;&nbsp;<strong>MBCToda</strong> 2018 - 2022.</p><br/>
+		    <div className="text-center">
+				<span className="span"><a href="#">Privacy Notice</a></span>
+				<span>|</span>
+				<span className="span"><a href="#">Terms and Conditions</a></span>
+			</div>
 		</div>
 	</>
 	)

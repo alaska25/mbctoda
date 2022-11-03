@@ -4,9 +4,9 @@ import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
 import { faPhone, faArrowLeft, faAnglesDown} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import img10 from "./images/book.png"
 import img11 from "./images/3star.png"
-import img12 from "./images/4star.png"
+import img14 from "./images/4star.png"
+import img13 from "./images/5star.png"
 export default function Medellin(){
 	const [open, setOpen] = useState(false);
 	return(
@@ -17,7 +17,7 @@ export default function Medellin(){
 		        aria-expanded={open}
 		        className="w-100 rounded-0 square square border-top text-start bg-primary"
 		      >
-		        Poblacion
+		        Poblacion - Medellin
 		        <FontAwesomeIcon icon={faAnglesDown} className="float-end"></FontAwesomeIcon>
 		      </Button>
 		      <Collapse in={open}>
@@ -30,45 +30,33 @@ export default function Medellin(){
 		          			          <th>Names</th>
 		          			          <th>Contact #</th>
 		          			          <th>Action</th>
+		          			          <th>Ratings</th>
 		          			        </tr>
 		          			      </thead>
 		          			      <tbody>
-		          			      
 		          			        <tr>
 		          			          <td>1</td>
-		          			          <td>Wilson</td>
-		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
+		          			          <td>Mateo Layson</td> 
+		          			          <td>09073184406</td>
+		          			          <td><a href="tel:09073184406"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td><img src={img13} fluid /></td>
+
 		          			        </tr>
 		          			        <tr>
 		          			          <td>2</td>
-		          			          <td>Rogelio</td> 
+		          			          <td>Pedro Villegas</td> 
 		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
+		          			          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td><img src={img13} fluid /></td>
+
 		          			        </tr>
 		          			        <tr>
 		          			          <td>3</td>
-		          			          <td>Roselma</td> 
+		          			          <td>Jackson Bienes</td> 
 		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
-		          			        </tr>
-		          			        <tr>
-		          			          <td>4</td>
-		          			          <td>Mateo</td> 
-		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
-		          			        </tr>
-		          			        <tr>
-		          			          <td>5</td>
-		          			          <td>Pedro</td> 
-		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
-		          			        </tr>
-		          			        <tr>
-		          			          <td>6</td>
-		          			          <td>Bienes</td> 
-		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09000000000"><img src={img10} width="100" fluid/></a></td>
+		          			          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td><img src={img13} fluid /></td>
+
 		          			        </tr>
 		          			      </tbody>
 		          			    </Table>

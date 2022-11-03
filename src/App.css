@@ -220,7 +220,7 @@ ol li {
   padding: 0;
   border: none;
   background: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /*Responsive Control*/
 @media(max-width: 600px) { 

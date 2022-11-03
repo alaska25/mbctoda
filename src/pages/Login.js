@@ -147,8 +147,8 @@ export default function Login(){
 								</Button>
 							</div>
 						}
-						<p className="mt-2 text-center">Forgotten Password? <a href="/forgottenpassword">Reset here</a></p>
 						<p className="mt-2 text-center">Not a member yet? Join <a href="/register">here</a></p>
+						<p className="mt-2 text-end"><a href="/forgottenpassword">Forgotten Password?</a></p>
 
 						<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
 						  Cancel
