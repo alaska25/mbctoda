@@ -2,7 +2,7 @@ import { Card, Button, Collapse } from "react-bootstrap";
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
-import { faPhone, faArrowLeft, faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faArrowLeft, faAnglesDown, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import img11 from "./images/3star.png"
 import img14 from "./images/4star.png"
@@ -39,21 +39,39 @@ export default function LamintakSur(){
 			          		          <td>Joselito Ogatis</td>
 			          		          <td>09973369633</td>
 			          		          <td><a href="tel:09973369633"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Guillermo Delarama</td>
 			          		          <td>09362614196</td>
 			          		          <td><a href="tel:09362614196"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Jaime Otid</td>
 			          		          <td>09065549009</td>
 			          		          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 			          		        </tr>
 
 			          		      </tbody>

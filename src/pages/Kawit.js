@@ -2,7 +2,7 @@ import { Card, Button, Collapse } from "react-bootstrap";
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
-import { faPhone, faArrowLeft, faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faArrowLeft, faAnglesDown, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import img11 from "./images/3star.png"
 import img14 from "./images/4star.png"
@@ -38,22 +38,49 @@ export default function Kawit(){
 			          		          <td>1</td>
 			          		          <td>Lunie Apas</td>
 			          		          <td>09050651099</td>
-			          		          <td><a href="tel:09050651099"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td>
+			          		          	<a href="tel:09050651099"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09050651099"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Vicente Sabang</td>
 			          		          <td>09293272892</td>
-			          		          <td><a href="tel:09293272892"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td>
+			          		          	<a href="tel:09293272892"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09293272892"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 			          		        </tr>
 			          		        <tr>
 			          		          <td>3</td>
 			          		          <td>Richard DelaPena</td>
 			          		          <td>09066329982</td>
-			          		          <td><a href="tel:09066329982"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td>
+			          		          	<a href="tel:09066329982"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09066329982"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 			          		        </tr>
 
 			          		      </tbody>

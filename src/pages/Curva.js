@@ -39,7 +39,10 @@ export default function Curva(){
 			          		          <td>1</td>
 			          		          <td>Roger Mendiola</td>
 			          		          <td>09068950312</td>
-			          		           <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		           <td>
+			          		           	<a href="tel:09068950312"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		           	<a href="tel:09068950312"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		           </td>
 			          		           <td className="d-flex justify-content-around p-4">
 			          		           		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		           		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>

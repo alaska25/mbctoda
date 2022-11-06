@@ -2,7 +2,7 @@ import { Card, Button, Collapse } from "react-bootstrap";
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
-import { faPhone, faArrowLeft, faAnglesDown} from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faArrowLeft, faAnglesDown, faStar} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import img11 from "./images/3star.png"
 import img14 from "./images/4star.png"
@@ -39,7 +39,13 @@ export default function Medellin(){
 		          			          <td>Mateo Layson</td> 
 		          			          <td>09073184406</td>
 		          			          <td><a href="tel:09073184406"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 
 		          			        </tr>
 		          			        <tr>
@@ -47,7 +53,13 @@ export default function Medellin(){
 		          			          <td>Pedro Villegas</td> 
 		          			          <td>09000000000</td>
 		          			          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 
 		          			        </tr>
 		          			        <tr>
@@ -55,7 +67,13 @@ export default function Medellin(){
 		          			          <td>Jackson Bienes</td> 
 		          			          <td>09000000000</td>
 		          			          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		          <td><img src={img13} fluid /></td>
+			          		          <td className="d-flex justify-content-around p-4">
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          </td>
 
 		          			        </tr>
 		          			      </tbody>
