@@ -222,6 +222,11 @@ ol li {
   background: none;
   border-radius: 5px;
 }
+
+.checked {
+  color: orange;
+}
+
 /*Responsive Control*/
 @media(max-width: 600px) { 
   .post .sc_image img { 

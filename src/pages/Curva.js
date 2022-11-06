@@ -2,7 +2,7 @@ import { Card, Button, Collapse } from "react-bootstrap";
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom";
-import { faPhone, faArrowLeft, faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faArrowLeft, faAnglesDown, faStar} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import img11 from "./images/3star.png"
 import img14 from "./images/4star.png"
@@ -23,7 +23,7 @@ export default function Curva(){
 			      <Collapse in={open}>
 			        <div id="example-collapse-text">
 			        <div className="container" style={{overflow:"auto"}}>
-			              <Table striped bordered hover className="text-center mt-3 col-sm-3">
+			              <Table className="text-center col-sm-3">
 			          		      <thead className="mt-5">
 			          		          <tr className="text-dark fw-bold">
 			          		          <th>I.D&nbsp;#</th>
@@ -40,7 +40,13 @@ export default function Curva(){
 			          		          <td>Roger Mendiola</td>
 			          		          <td>09068950312</td>
 			          		           <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
-			          		           <td><img src={img13} fluid /></td>
+			          		           <td className="d-flex justify-content-around p-4">
+			          		           		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		           		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		           		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		           		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
+			          		           		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		           </td>
 			          		        </tr>
 
 			          		      </tbody>
