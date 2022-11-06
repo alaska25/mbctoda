@@ -38,7 +38,10 @@ export default function Medellin(){
 		          			          <td>1</td>
 		          			          <td>Mateo Layson</td> 
 		          			          <td>09073184406</td>
-		          			          <td><a href="tel:09073184406"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+		          			          <td>
+		          			          	<a href="tel:09073184406"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+		          			          	<a href="tel:09073184406"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+		          			          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -52,7 +55,10 @@ export default function Medellin(){
 		          			          <td>2</td>
 		          			          <td>Pedro Villegas</td> 
 		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+		          			          <td>
+		          			          	<a href="tel:09000000000"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+		          			          	<a href="tel:09000000000"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+		          			          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -66,7 +72,10 @@ export default function Medellin(){
 		          			          <td>3</td>
 		          			          <td>Jackson Bienes</td> 
 		          			          <td>09000000000</td>
-		          			          <td><a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+		          			          <td>
+		          			          	<a href="tel:09000000000"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+		          			          	<a href="tel:09000000000"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+		          			          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>

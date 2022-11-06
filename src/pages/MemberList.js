@@ -48,6 +48,7 @@ export default function MemberList(){
 			      	<li>Select drivers based on your current location.</li>
 			        <li>Book an appointment via call and text messages.</li>
 			        <li>Pricing may depends upon your destination. Please negotiate properly with our drivers.</li>
+			        <li>We accept payment Cash or Gcash. Please ask the driver first before completing the payment to avoid invalid transaction.</li>
 			        <li>For your feedback and concerns feel free to contact our customer service. Thank you!</li>
 			      </ol>
 			    </div>

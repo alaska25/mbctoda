@@ -38,7 +38,10 @@ export default function Panugnawan(){
 			          		          <td>1</td>
 			          		          <td>Jimbel Delacruz</td>
 			          		          <td>09362206486</td>
-			          		          <td><a href="tel:09362206486"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td>
+			          		          	<a href="tel:09362206486"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09362206486"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -51,7 +54,10 @@ export default function Panugnawan(){
 			          		          <td>2</td>
 			          		          <td>Melvin Alowa</td> 
 			          		          <td>09000000000</td>
-			          		          <td><a href="tel:09068950312"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td>
+			          		          	<a href="tel:09000000000"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09000000000"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>

@@ -39,7 +39,10 @@ export default function Panugnawan(){
 			          		          <td>1</td>
 			          		          <td>Julius Constantino</td>
 			          		          <td>09100394079</td>
-			          		          <td><a href="tel:09100394079"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td>
+			          		          	<a href="tel:09100394079"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09100394079"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>

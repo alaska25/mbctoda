@@ -2,6 +2,10 @@ import { Carousel } from "react-bootstrap";
 import img2 from "./images/pc1.png";
 import img3 from "./images/pc2.png";
 import img4 from "./images/pc3.png";
+import img5 from "./images/map.png";
+import img6 from "./images/map_2.png";
+import img7 from "./images/map_3.png";
+import img8 from "./images/map_4.png";
 export default function Header() {
 	return(
 		<>	
@@ -11,14 +15,28 @@ export default function Header() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://realestate.jcg.services/wp-content/uploads/2020/11/Barangay-Poblacion-Medellin.Map_.png"
+                                    src={img5}
                                     alt="Second slide" img-fluid
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="https://realestate.jcg.services/wp-content/uploads/2020/11/Barangay-Poblacion-Medellin.Map_.png"
+                                    src={img6}
+                                    alt="Third slide" img-fluid
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={img7}
+                                    alt="Third slide" img-fluid
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={img8}
                                     alt="Third slide" img-fluid
                                 />
                             </Carousel.Item>
