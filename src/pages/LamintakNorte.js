@@ -70,7 +70,10 @@ export default function LamintakNorte(){
 			          		          <td>3</td>
 			          		          <td>Fred Cortes</td>
 			          		          <td>09973853491</td>
-			          		          <td><a href="tel:09973853491"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td>
+			          		          	<a href="tel:09973853491"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09973853491"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -83,7 +86,10 @@ export default function LamintakNorte(){
 			          		          <td>4</td>
 			          		          <td>Dario Yuson</td>
 			          		          <td>09551578464</td>
-			          		          <td><a href="tel:09551578464"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a></td>
+			          		          <td>
+			          		          	<a href="tel:09551578464"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09551578464"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
