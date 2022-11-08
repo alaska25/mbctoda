@@ -6,6 +6,7 @@
 }
 img {
   opacity: 2;
+  image-rendering: optimizeQuality;
 }
 img:hover {
   opacity: 0.9;
