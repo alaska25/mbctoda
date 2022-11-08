@@ -16,7 +16,7 @@ export default function SubFooter(){
 		      <div className="col-sm-3">
 		        <div className="footer-widget">
 		        <div className="p-1">
-		          <h3 className="space"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><a className="text-danger text">MBCT</a><a className="text-warning text">oda</a></h3>
+		          <h3 className="space"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><a className="text-danger text">MBC</a><a className="text-warning text">Todas</a></h3>
 		          	<p>We deliver passenger to each destination with love.</p>
 		          	<p>Send Email:&nbsp;<a href="mailto:mbctoda@gmail.com">mbctoda@gmail.com</a></p>
 		        </div>

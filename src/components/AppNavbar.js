@@ -12,7 +12,7 @@ export default function AppNavbar(){
 	return(
 				    <Navbar sticky="top" collapseOnSelect expand="lg" variant="light" bg="light" className="animate-navbar nav-theme justify-content-between bgdark h-100">
 				    <Container>
-				    <Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><strong><a className="text-danger text ms-1">MBCT</a><a className="text-warning text">oda</a></strong></Nav.Link>	           	
+				    <Nav.Link as={Link} to="/" eventKey="/"><FontAwesomeIcon icon={faLocationDot} className="ms-1"></FontAwesomeIcon><strong><a className="text-danger text ms-1">MBC</a><a className="text-warning text">Todas</a></strong></Nav.Link>	           	
 				    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 	   
 	            <Navbar.Collapse id="responsive-navbar-nav">

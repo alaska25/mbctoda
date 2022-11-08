@@ -49,6 +49,7 @@ export default function MemberList(){
 			        <li>Book an appointment via call and text messages.</li>
 			        <li>Pricing may depends upon your destination. Please negotiate properly with our drivers.</li>
 			        <li>We accept payment Cash or Gcash. Please ask the driver first before completing the payment to avoid invalid transaction.</li>
+			        <li>For booking and reservation we ask 50% down payment via gcash to avoid cancellation and for driver gas consumption.</li>
 			        <li>For your feedback and concerns feel free to contact our customer service. Thank you!</li>
 			      </ol>
 			    </div>
