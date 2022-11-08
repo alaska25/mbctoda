@@ -30,56 +30,29 @@ export default function CaputatanSur(){
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
 			          		          <th>Action</th>
+			          		          <th>Payment&nbsp;Mode</th>
 			          		          <th>Ratings</th>
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
+			          		       
 			          		        <tr>
 			          		          <td>1</td>
-			          		          <td>Carlos Bolaquia</td>
-			          		          <td>09974972351</td>
-			          		          <td>
-			          		          	<a href="tel:09974972351"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
-			          		          	<a href="tel:09974972351"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
-			          		          </td>
-			          		          <td className="d-flex justify-content-around p-4">
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
-			          		          </td>
-			          		        </tr>
-			          		        <tr>
-			          		          <td>2</td>
 			          		          <td>Tito Bacus</td>
 			          		          <td>09554096855</td>
 			          		          <td>
 			          		          	<a href="tel:09554096855"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
-			          		          	<a href="tel:09554096855"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
 			          		          </td>
-			          		          <td className="d-flex justify-content-around p-4">
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
-			          		          </td>
-			          		        </tr>
-			          		        <tr>
-			          		          <td>3</td>
-			          		          <td>Lando Tumabini</td>
-			          		          <td>09107732409</td>
 			          		          <td>
-			          		          	<a href="tel:09107732409"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
-			          		          	<a href="tel:09107732409"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          	<a href="tel:09554096855"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
+			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
 			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          </td>
 			          		        </tr>
 

@@ -30,59 +30,32 @@ export default function LamintakSur(){
 			          		          <th>Names</th>
 			          		          <th>Contact #</th>
 			          		          <th>Action</th>
+			          		          <th>Payment&nbsp;Mode</th>
 			          		          <th>Ratings</th>
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
+			          		        
 			          		        <tr>
 			          		          <td>1</td>
-			          		          <td>Joselito Ogatis</td>
-			          		          <td>09973369633</td>
-			          		          <td>
-			          		          	<a href="tel:09973369633"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
-			          		          	<a href="tel:09973369633"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
-			          		          </td>
-			          		          <td className="d-flex justify-content-around p-4">
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
-			          		          </td>
-			          		        </tr>
-			          		        <tr>
-			          		          <td>2</td>
 			          		          <td>Guillermo Delarama</td>
 			          		          <td>09362614196</td>
 			          		          <td>
 			          		          	<a href="tel:09362614196"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
-			          		          	<a href="tel:09362614196"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
 			          		          </td>
-			          		          <td className="d-flex justify-content-around p-4">
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
-			          		          </td>
-			          		        </tr>
-			          		        <tr>
-			          		          <td>3</td>
-			          		          <td>Jaime Otid</td>
-			          		          <td>09065549009</td>
 			          		          <td>
-			          		          	<a href="tel:09065549009"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
-			          		          	<a href="tel:09065549009"><button className="bg-primary p-1 text-light w-100 border">Pay Gcash</button></a>
+			          		          	<a href="tel:09362614196"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
+			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
 			          		          </td>
 			          		          <td className="d-flex justify-content-around p-4">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
-			          		          		<FontAwesomeIcon icon={faStar} className=""></FontAwesomeIcon>
+			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          </td>
 			          		        </tr>
-
+			          		        
 			          		      </tbody>
 			          		    </Table>
 			        </div>

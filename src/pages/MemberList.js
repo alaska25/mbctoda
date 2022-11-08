@@ -31,7 +31,7 @@ export default function MemberList(){
 					<Button as={Link} to="/" eventKey="/" className=" bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
 					<h3 className="text-center fw-bold">Please Select Driver's Location</h3><br/>
 				  <Antipolo /><br/>
-				  <Bogo /><br/>
+
 				  <Curva /><br/>
 				  <CaputatanSur/><br/>
 				  <Daanlungsod /><br/>
@@ -39,7 +39,7 @@ export default function MemberList(){
 				  <LamintakNorte /><br/>
 				  <LamintakSur /><br/>
 			      <Medellin /><br/>
-			      <Mahawak /><br/>
+
 			      <Panugnawan /><br/>
 			      <SanRemegio />
 			      <br/><br/><br/>
