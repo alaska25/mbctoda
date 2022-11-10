@@ -27,7 +27,7 @@ export default function MemberList(){
 	return(
 		(user.isAdmin) ? <Navigate to="/admindashboard"/> : 	
 			<>	
-				<div className="container">
+				<div className="container-fluid">
 					<Button as={Link} to="/" eventKey="/" className=" bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>
 					<h3 className="text-center fw-bold">Please Select Driver's Location</h3><br/>
 				  <Antipolo /><br/>

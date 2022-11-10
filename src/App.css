@@ -22,6 +22,9 @@ img:hover {
  image-rendering: crisp-edges;
  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
+.gcash{
+  text-decoration: none;
+}
 .button{
   border-radius: 0;
 }

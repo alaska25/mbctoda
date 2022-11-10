@@ -23,13 +23,13 @@ export default function Antipolo(){
 			      </Button>
 			      <Collapse in={open}>
 			        <div id="example-collapse-text">
-			        <div className="container" style={{overflow:"auto"}}>
-			              <Table striped bordered hover className="text-center mt-3 col-sm-3">
+			        <div style={{overflow:"auto"}}>
+			              <Table bordered responsive="sm" variant="transparent" className="text-center mt-3 w-100">
 			          		      <thead className="mt-5">
 			          		        <tr className="text-dark fw-bold">
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
-			          		          <th>Contact #</th>
+			          		          <th>G-Cash #</th>
 			          		          <th>Action</th>
 			          		          <th>Payment&nbsp;Mode</th>
 			          		          <th>Ratings</th>
@@ -37,7 +37,7 @@ export default function Antipolo(){
 			          		        </tr>
 			          		      </thead>
 			          		      <tbody>
-			          		        <tr>
+			          		        <tr className="mt-2">
 			          		          <td>1</td>
 			          		          <td>Arjon Moralde</td>
 			          		          <td>09976997408</td>
@@ -46,10 +46,9 @@ export default function Antipolo(){
 			          		          	
 			          		          </td>
 			          		          <td>
-			          		          	<a href="tel:09976997408"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
-			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
+			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
-			          		          <td className="d-flex justify-content-around p-4">
+			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -66,11 +65,10 @@ export default function Antipolo(){
 			          		          	<a href="tel:09661884680"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
 			          		          </td>
 			          		          <td>
-			          		          	<a href="tel:09661884680"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
-			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
+			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
 
-			          		          <td className="d-flex justify-content-around p-4">
+			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -87,11 +85,10 @@ export default function Antipolo(){
 			          		          	<a href="tel:09661439506"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
 			          		          </td>
 			          		          <td>
-			          		          	<a href="tel:09661439506"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
-			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
+			          		          	<p><a href="https://www.gcash.com" target="_blank"  className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
 
-			          		          <td className="d-flex justify-content-around p-4">
+			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -108,11 +105,10 @@ export default function Antipolo(){
 			          		          	<a href="tel:09219587042"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
 			          		          </td>
 			          		          <td>
-			          		          	<a href="tel:09219587042"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
-			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
+			          		          	<p><a href="https://www.gcash.com" target="_blank"  className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
 
-			          		          <td className="d-flex justify-content-around p-4">
+			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -129,11 +125,10 @@ export default function Antipolo(){
 			          		          	<a href="tel:09224061800"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
 			          		          </td>
 			          		          <td>
-			          		          	<a href="tel:09224061800"><button className="bg-primary p-1 text-light w-100 border">Gcash</button></a>
-			          		          	<a href="#"><button className="bg-success p-1 text-light w-100 border">Cash</button></a>
+			          		          	<p><a href="https://www.gcash.com" target="_blank"  className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
 
-			          		          <td className="d-flex justify-content-around p-4">
+			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
