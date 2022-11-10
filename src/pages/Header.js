@@ -14,32 +14,20 @@ export default function Header() {
                        <Carousel>
                             <Carousel.Item>
                                 <img
-                                    className="d-block w-100"
-                                    src={img5}
-                                    alt="Second slide" img-fluid
-                                />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    className="d-block w-100"
-                                    src={img6}
+                                    className="d-block w-100 card-image"
+                                    src={img4}
                                     alt="Third slide" img-fluid
                                 />
                             </Carousel.Item>
+                            
                             <Carousel.Item>
                                 <img
-                                    className="d-block w-100"
-                                    src={img7}
+                                    className="d-block w-100 card-image"
+                                    src={img3}
                                     alt="Third slide" img-fluid
                                 />
                             </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    className="d-block w-100"
-                                    src={img8}
-                                    alt="Third slide" img-fluid
-                                />
-                            </Carousel.Item>
+
                        </Carousel>
                  
            
