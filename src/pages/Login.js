@@ -85,8 +85,7 @@ export default function Login(){
 		})
 		.then(res => res.json())
 		.then(data => {
-			console.log(data);
-
+			
 			//This will be set to the user state.
 			setUser({
 				id: data._id,
