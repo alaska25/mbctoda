@@ -17,14 +17,6 @@ export default function Register(){
 	const [password1, setPassword1] = useState("");
 	const [password2, setPassword2] = useState("");
 
-	// Check if the values are successfully binded/passed.
-	console.log(firstName);
-	console.log(lastName);
-	console.log(email);
-	console.log(mobileNo);
-	console.log(password1);
-	console.log(password2);
-
 	//Function to simulate user registration
 	function registerUser(e){
 		//prevents the page redirection via form submit
@@ -42,8 +34,6 @@ export default function Register(){
 		})
 		.then(res => res.json())
 		.then(data => {
-			console.log(data);
-
 			if(data){
 				Swal.fire({
 						title: "Duplicate email found",
@@ -67,7 +57,7 @@ export default function Register(){
 				})
 				.then(res => res.json())
 				.then(data => {
-					console.log(data)
+
 					if(data){
 						// Clear input fields
 						setFirstName("");
@@ -103,16 +93,6 @@ export default function Register(){
 		setEmail("");
 		setPassword1("");
 		setPassword2("");
-
-
-		
-		// alert("Thank you for registering!");
-
-		// email = "";
-		// password1 = "";   const cannot reassign
-		// password2 = "";
-
-
 	}
 
 
