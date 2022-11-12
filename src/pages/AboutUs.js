@@ -7,7 +7,7 @@ export default function AboutUs(){
 			      <p>
 			      	Our story is simply driven by a passion to bring convenient, efficient and reliable transport solutions to everyone, everywhere.<br/><br/>
 
-			      	MBCTodas is an e-hailing on demand tricycle taxi system that provides a marketplace where persons seeking transportation are matched with available drivers ready to take them to their destinations. MBCToda provides an integration of transportation needs for passengers and drivers onto a mobile technology platform ensuring efficient and reliable urban transport. We take advantage of technology and build solutions, that are relevant to today`s needs.<br/><br/> 
+			      	MBCTodas is an e-hailing on demand tricycle taxi system that provides a marketplace where persons seeking transportation are matched with available drivers ready to take them to their destinations. It provides an integration of transportation needs for passengers and drivers onto a mobile technology platform ensuring efficient and reliable urban transport. We take advantage of technology and build solutions, that are relevant to today`s needs.<br/><br/> 
 
 			      	<strong>OUR OFFERING</strong><br/>
 
