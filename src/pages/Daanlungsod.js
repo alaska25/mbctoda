@@ -58,9 +58,9 @@ export default function Daanlungsod(){
 			          		        <tr>
 			          		          <td>2</td>
 			          		          <td>Amando Villegas</td>
-			          		          <td>09324711214</td>
+			          		          <td>09423948532</td>
 			          		          <td>
-			          		          	<a href="tel:09324711214"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
+			          		          	<a href="tel:09423948532"><button className="bg-danger p-1 text-light w-100 border">Book&nbsp;Now</button></a>
 			          		          </td>
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
