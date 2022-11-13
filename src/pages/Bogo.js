@@ -24,12 +24,12 @@ export default function Bogo(){
 			      <Collapse in={open}>
 			        <div id="example-collapse-text">
 			        <div className="container" style={{overflow:"auto"}}>
-			              <Table striped bordered hover className="text-center mt-3 col-sm-3">
+			              <Table bordered responsive="sm" variant="transparent" className="text-center mt-3 w-100">
 			          		      <thead className="mt-5">
 			          		        <tr className="text-dark fw-bold">
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
-			          		          <th>Contact #</th>
+			          		          <th>Contact No.</th>
 			          		          <th>Action</th>
 			          		          <th>Ratings</th>
 			          		        </tr>

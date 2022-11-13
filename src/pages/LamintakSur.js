@@ -28,7 +28,7 @@ export default function LamintakSur(){
 			          		        <tr className="text-dark fw-bold">
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
-			          		          <th>G-Cash #</th>
+			          		          <th>Contact No.</th>
 			          		          <th>Action</th>
 			          		          <th>Payment&nbsp;Mode</th>
 			          		          <th>Ratings</th>

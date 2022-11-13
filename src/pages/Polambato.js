@@ -28,7 +28,7 @@ export default function Polambato(){
 			          		        <tr className="text-dark fw-bold">
 			          		          <th>I.D&nbsp;#</th>
 			          		          <th>Names</th>
-			          		          <th>Contact #</th>
+			          		          <th>Contact No.</th>
 			          		          <th>Action</th>
 			          		        </tr>
 			          		      </thead>

@@ -7,8 +7,6 @@ export default function Banner({data}){
 
 	return(
     <>
-
-       	
 	       <Col className="p-3 text-center">
 					<h2 className="fw-bold">We're Making <br/>Your Everyday Better</h2>
 					<Button as={Link} to="/Register" eventKey="/Register">Get Started</Button>

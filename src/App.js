@@ -7,6 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import AdminDashboard from "./pages/AdminDashboard";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
+import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
@@ -17,6 +18,7 @@ import Services from "./pages/Services";
 import TermPolicies from "./pages/TermPolicies";
 import AddService from "./pages/AddService";
 import ActiveDrivers from "./pages/ActiveDrivers";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ForgottenPassword from "./pages/ForgottenPassword";
 
 
@@ -102,6 +104,8 @@ function App() {
                     <Route exact path ="/add-service" element={<AddService />} />
                     <Route exact path ="/active-driver" element={<ActiveDrivers />} />
                     <Route exact path ="/forgottenpassword" element={<ForgottenPassword />} />
+                    <Route exact path ="/privacy_policy" element={<PrivacyPolicy />} />
+                    <Route exact path ="*" element={<Error />} />
                     
                 </Routes>
 

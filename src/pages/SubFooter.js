@@ -23,7 +23,7 @@ export default function SubFooter(){
 		          <div className="footer-widget-content">
 		            <div className="footer-social">
 		            	<ul className="image text-center">
-		              		<li><a href="#"><img src="./images/facebook.png"/></a></li>
+		              		<li><a href="https://www.facebook.com/profile.php?id=100087612344205" target="_blank"><img src="./images/facebook.png"/></a></li>
 		              		<li><a href="#"><img src="./images/twitter.png"/></a></li>
 		              		<li><a href="#"><img src="./images/youtube.png"/></a></li>
 		            	</ul>
@@ -83,11 +83,9 @@ export default function SubFooter(){
 		</footer>
 		<div className="p-4 bgdark">
 		<hr/>	
-		<p className="text-muted text-center"> &copy;&nbsp;<strong>MBCToda</strong> 2018 - 2022.</p><br/>
-		    <div className="text-center">
-				<span className="span"><a href="#">Privacy Notice</a></span>
-				<span>|</span>
-				<span className="span"><a href="#">Terms and Conditions</a></span>
+		<p className="text-muted text-center"> &copy;&nbsp;<strong>MBCToda</strong> 2022- 2023.</p><br/>
+		    <div className="d-flex justify-content-center">
+				<span className="span"><a href="/privacy_policy">Privacy Policy</a></span>
 			</div>
 		</div>
 	</>
