@@ -129,13 +129,16 @@ export default function ForgottenPassword(){
 							?
 							<div className="d-grid gap-2 p-3">
 								<Button variant="success" type="submit" id="submitBtn">
-								  Submit
+								  Search
 								</Button>
 							</div>
 							:
 							<div className="d-grid gap-2 p-3">
 								<Button variant="primary" type="submit" id="submitBtn" size="sm" disabled>
-								  Submit
+								  Search
+								</Button>
+								<Button variant="primary" type="submit" id="submitBtn" size="sm" disabled>
+								  Cancel
 								</Button>
 							</div>
 						}

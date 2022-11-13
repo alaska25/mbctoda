@@ -25,7 +25,10 @@ export default function MemberList(){
 	const {user} = useContext(UserContext);
 
 	return(
-		(user.isAdmin) ? <Navigate to="/admindashboard"/> : 	
+		(user.isAdmin) 
+		? 
+			<Navigate to="/admindashboard"/> 
+		: 	
 			<>	
 				<div className="container-fluid">
 					<Button as={Link} to="/" eventKey="/" className=" bg-primary"><FontAwesomeIcon icon={faArrowLeft} className="ms-1"></FontAwesomeIcon>&nbsp;Back</Button>

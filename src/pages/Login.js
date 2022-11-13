@@ -105,16 +105,14 @@ export default function Login(){
 	}, [email, password])
 
 	return(
-		// Conditional rendering is applied in the Login pages that will determine which component/page will be loaded if the user is already login.
-		(user.id !== null)
+	(user.id !== null)
 		?	
-			// Redirected to the /products endpoint.
 			<Navigate to="/MemberList" />
 		:
 		<>
 			<div className="container-fluid">
 				<div>
-					<h1 className="p-2 text-center text-dark">MBCToda Login</h1>
+					<h1 className="p-2 text-center text-dark">Log Into MBCTodas</h1>
 				</div>
 				<div className="d-flex justify-content-center container align-items-center my-5">
 					<Form className="rounded p-2 border-1 fw-bold bg-light" onSubmit ={(e) => login(e)}>
@@ -147,7 +145,7 @@ export default function Login(){
 							</div>
 						}
 						<p className="mt-2 text-center">Not Registered? Join <a href="/register">here</a></p>
-						<p className="mt-2 text-end"><a href="/forgottenpassword">Forgotten Password?</a></p>
+						<p className="mt-2 text-end"><a href="/forgottenpassword">Forgot account?</a></p>
 
 						<Button as={Link} to="/" type="submit" variant="danger" id="submitBtn" size="sm" className="mt-1 p-2">
 						  Cancel
