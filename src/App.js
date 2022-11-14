@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import AddMember from "./pages/AddMember";
-import MemberList from "./pages/MemberList";
+import Driver_List from "./pages/Driver_List";
 import Register from "./pages/Register";
 import Services from "./pages/Services";
 import TermPolicies from "./pages/TermPolicies";
@@ -96,7 +96,7 @@ function App() {
                     <Route exact path ="/login" element={<Login />} />
                     <Route exact path ="/logout" element={<Logout />} />
                     <Route exact path ="/addmember" element={<AddMember />} />
-                    <Route exact path ="/memberlist" element={<MemberList />} />
+                    <Route exact path ="/driver_list" element={<Driver_List />} />
                     <Route exact path ="/register" element={<Register />} />
                     <Route exact path ="/admindashboard" element={<AdminDashboard />} />
                     <Route exact path ="/services" element={<Services />} />
