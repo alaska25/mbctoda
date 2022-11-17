@@ -12,13 +12,23 @@ export default function Header() {
 	return(
 		<>	
           
-      
-                                <img
-                                    className="d-block w-100 card-image"
-                                    src={img9}
-                                    alt="Third slide" img-fluid
-                                />
- 
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 card-image"
+                    src={img4}
+                    alt="Third slide" img-fluid
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 card-image"
+                    src={img3}
+                    alt="Third slide" img-fluid
+                    />
+                </Carousel.Item>
+
+            </Carousel>
                  
            
 

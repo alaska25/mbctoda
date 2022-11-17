@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
 			<p>MBCTodas is there to connect people through transportation and bring communities together. Our privacy policy, describe information we receive from MBCTodas passengers and drivers, and how we use it to connect passengers with drivers and continue to improve our services.</p>
 
 			<h3>Scope of this Privacy Policy</h3>
-			<p>MBCTodas (“MBCTodas,” “we,” “our,” and/or “us”) values the privacy of individuals who use our application, websites, and related services (collectively, the “Toda Platform ”). This privacy policy (the “Privacy Policy”) explains how we collect, use, and share information from MBCTodas user (“Users”), comprised of both MBCTodas Passengers (“Passengers”) and MBCTodas drivers (including Driver applicants) (“Drivers”).</p>
+			<p>MBCTodas (“MBCTodas,” “we,” “our,” and/or “us”) values the privacy of individuals who use our application, websites, and related services (collectively, the “MBCTodas Platform ”). This privacy policy (the “Privacy Policy”) explains how we collect, use, and share information from MBCTodas user (“Users”), comprised of both MBCTodas Passengers (“Passengers”) and MBCTodas drivers (including Driver applicants) (“Drivers”).</p>
 
 			<h3>Information We Collect</h3>
 			<li>Registration Information. When you sign up for a MBCTodas account, you give us your name, email address, and phone number.</li>
