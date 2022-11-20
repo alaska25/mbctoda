@@ -32,6 +32,7 @@ export default function Antipolo(){
 			          		          <th>Contact No.</th>
 			          		          <th>Action</th>
 			          		          <th>Payment&nbsp;Mode</th>
+			          		          <th>Availability</th>
 			          		          <th>Ratings</th>
 
 			          		        </tr>
@@ -48,6 +49,9 @@ export default function Antipolo(){
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
+			          		          <td>
+			          		          	<p>6am - 10pm</p>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -55,6 +59,7 @@ export default function Antipolo(){
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          </td>
+
 			          		        </tr>
 			          		        
 			          		        <tr>
@@ -66,6 +71,9 @@ export default function Antipolo(){
 			          		          </td>
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
+			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 6pm</p>
 			          		          </td>
 
 			          		          <td className="d-flex justify-content-around p-3">
@@ -87,6 +95,9 @@ export default function Antipolo(){
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank"  className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 6pm</p>
+			          		          </td>
 
 			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -107,6 +118,9 @@ export default function Antipolo(){
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank"  className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 6pm</p>
+			          		          </td>
 
 			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -126,6 +140,9 @@ export default function Antipolo(){
 			          		          </td>
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank"  className="gcash">G-Cash</a> | Cash</p>
+			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 6pm</p>
 			          		          </td>
 
 			          		          <td className="d-flex justify-content-around p-3">

@@ -32,6 +32,7 @@ export default function Daanlungsod(){
 			          		          <th>Contact No.</th>
 			          		          <th>Action</th>
 			          		          <th>Payment&nbsp;Mode</th>
+			          		          <th>Availability</th>
 			          		          <th>Ratings</th>
 			          		        </tr>
 			          		      </thead>
@@ -45,6 +46,9 @@ export default function Daanlungsod(){
 			          		          </td>
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
+			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 8pm</p>
 			          		          </td>
 			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -65,6 +69,9 @@ export default function Daanlungsod(){
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
 			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 8pm</p>
+			          		          </td>
 			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
@@ -83,6 +90,9 @@ export default function Daanlungsod(){
 			          		          </td>
 			          		          <td>
 			          		          	<p><a href="https://www.gcash.com" target="_blank" className="gcash">G-Cash</a> | Cash</p>
+			          		          </td>
+			          		          <td>
+			          		          	<p>5am - 8pm</p>
 			          		          </td>
 			          		          <td className="d-flex justify-content-around p-3">
 			          		          		<FontAwesomeIcon icon={faStar} className="checked"></FontAwesomeIcon>
