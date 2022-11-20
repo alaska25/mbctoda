@@ -107,7 +107,7 @@ export default function Login(){
 	return(
 	(user.id !== null)
 		?	
-			<Navigate to="/MemberList" />
+			<Navigate to="/driver_list" />
 		:
 		<>
 			<div className="container-fluid">

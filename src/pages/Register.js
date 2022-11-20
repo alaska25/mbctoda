@@ -116,7 +116,7 @@ export default function Register(){
 			(user.id !== null)
 
 			?
-				<Navigate to="/MemberList"/>
+				<Navigate to="/driver_list"/>
 			:
 
 			<>
