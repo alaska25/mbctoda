@@ -28,6 +28,7 @@ function App() {
   const [user, setUser] = useState({
     // email: localStorage.getItem("email")
     id: null,
+    isDriver: null,
     isAdmin: null
   })
 

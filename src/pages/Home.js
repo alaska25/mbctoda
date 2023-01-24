@@ -20,9 +20,7 @@ export default function Home(){
 		<Banner data = {data} />
 		<SubContent />
 		<AboutUs />
-		<hr/>
 		<Services />
-		<hr/>
 		<Content />
 		<Footer />
 	</div>

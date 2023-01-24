@@ -5,7 +5,7 @@ export default function Content(){
 		<br/>
 			<div className="text-center text-dark">
 				<div className="container p-2">
-					<h3 className="fw-bold">Customer Support 24/7</h3><br/>
+					<h3 className="fw-bold">Customer Support 24/7</h3>
 					<p>We are real people, we love our work, and we care about helping you. <br/> MBCTodas is not your ordinary association. Expect extraordinary support around the clock.</p>
 				</div>
 		    	<div className="container">
